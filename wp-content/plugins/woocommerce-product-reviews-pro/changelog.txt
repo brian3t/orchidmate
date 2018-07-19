@@ -1,0 +1,32 @@
+*** WooCommerce Product Reviews Pro Changelog ***
+
+2015.04.21 - version 1.0.6
+ * Fix - Escape all instances of add_query_arg and remove_query_arg to avoid a potential XSS attack
+ * Fix - Points and Rewards compatibility - points are now awarded only for the review contribution type (requires the latest version of Points and Rewards)
+ * Fix - You're not a mind reader, so login error messages will actually tell you what's wrong now
+ * Fix - Obey "Newest first" Sorting order option :)
+ * Tweak - Introduce the `wc_product_reviews_pro_review_points_contribution_types` filter
+ * Tweak - Option to add Employee badges to employee contributions and comments
+
+2015.04.21 - version 1.0.5
+ * Fix - Potential XSS with add_query_arg
+
+2015.03.25 - version 1.0.4
+ * Fix - Logging in and registering via the modal window now works on sites running in subfolders
+ * Fix - Fix submission of all other contribution types when ratings are required on reviews
+ * Tweak - You can now edit the contribution title from the WordPress admin :)
+
+2015.03.10 - version 1.0.3
+ * Tweak - Reset any default <fieldset> styling
+ * Tweak - Load scripts and styles on posts using the [product_page] shortcode
+
+2015.02.19 - version 1.0.2
+ * Fix - Respect the 'ratings required' setting
+ * Fix - Added `itemReviewed` Schema.org property
+ * Tweak - Move the rating inputs below the review if ratings are not required
+
+2015.02.09 - version 1.0.1
+ * Misc - WooCommerce 2.3 Compatibility
+
+2015.02.06 - version 1.0.0
+ * Initial Release

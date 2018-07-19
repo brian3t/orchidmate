@@ -1,0 +1,902 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ProductListPages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-12 04:20+0200\n"
+"PO-Revision-Date: 2013-08-12 04:31+0200\n"
+"Last-Translator: Pramnos Hosting Ltd <info@pramhost.com>\n"
+"Language-Team: Pramnos Hosting Ltd. <info@pramnoshosting.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;-;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../adminpanel.php:35
+msgid ""
+"To display the products list, just add <strong>[productslist]</strong> to "
+"any page. It will display a table with all the default options (set by this "
+"panel)."
+msgstr ""
+"Για να εμφανίσετε την λίστα των προϊόντων, απλά προσθέστε το <strong>"
+"[productlist]</strong> σε οποιαδήποτε σελίδα, στο σημείο που θέλετε να "
+"εμφανιστεί ο πίνακας. Θα εμφανιστεί ο πίνακας με όλες τις τιμές που έχετε "
+"καθορίσει στη διαχείρηση. Εναλλακτικά μπορείτε να παρέμβετε μέσω των "
+"επιπλέον επιλογών του shortcode."
+
+#: ../adminpanel.php:36
+msgid ""
+"<h3>Parameters</h3><ul><li><strong>titles=true/false</strong>: Display field "
+"titles on table.</li><li><strong>posts_per_page=x</strong>: If you want to "
+"have pagination, set how many products per page to display.</"
+"li><li><strong>cat=x</strong>: If you want to list pages from specific "
+"categories, use this parameter with the categori IDs or slugs.</"
+"li><li><strong>image=true/false</strong>: Display the product image column "
+"or not</li><li><strong>order=desc</strong>: ASC or DESC order.</"
+"li><li><strong>orderby=title/ID</strong>: What the product sorting should be "
+"based on.</li><li><strong>imageintitle=true/false</strong>: If this is true, "
+"the product image will be shown in title column instead of it's own.</"
+"li><li><strong>id=x</strong>: If you want to display specific products, add "
+"the product IDs here.</li><li><strong>producttitle=true/false</strong>: Set "
+"true to display the product title.</li><li><strong>excerpt=true/false</"
+"strong>: Set to true to display the product excerpt (description).</"
+"li><li><strong>content=true/false</strong>: Set to true to display the whole "
+"product content.</li><li><strong>price=true/false</strong>: Set to true to "
+"display the price of products.</li><li><strong>addtocartbutton=top/bottom/"
+"both/none/product</strong>: This sets the position of the Add to Cart "
+"button. If is set to product, no quantity box will be displayed.</"
+"li><li><strong>stock=true/false</strong>: Set to true to display stock "
+"levels of products.</li></ul>"
+msgstr ""
+"<h3>Παράμετροι</h3><ul><li><strong>titles=true/false</strong>: Προβολή "
+"τίτλων στις στήλες.</li><li><strong>posts_per_page=x</strong>: Αν θέλετε "
+"σελιδοποίηση, εδώ ορίζετε πόσα προϊόντα ανά σελίδα θα εμφανίζονται.</"
+"li><li><strong>cat=x</strong>: Αν θέλετε να εμφανίσετε προϊόντα από "
+"συγκεκριμένες κατηγορίες, εδώ ορίζετε τα ID ή τα slug των κατηγοριών.</"
+"li><li><strong>image=true/false</strong>: Εμφάνιση εικόνας προϊόντος.</"
+"li><li><strong>order=desc</strong>: Σειρά: Αύξουσα ή φθίνουσα.</"
+"li><li><strong>orderby=title/ID</strong>: Βάση ποιου πεδίου θα γίνεται η "
+"ταξινόμιση.</li><li><strong>imageintitle=true/false</strong>: Αν οριστεί ως "
+"true, η εικόνα θα εμφανίζεται στη στήλη του τίτλου αντί να είναι σε "
+"ξεχωριστή.</li><li><strong>id=x</strong>: Αν θέλετε να εμφανίσετε "
+"συγκεκριμένα προϊόντα, εδώ ορίζετε τα ID τους.</"
+"li><li><strong>producttitle=true/false</strong>: Εμφάνιση ή όχι του ονόματος "
+"του προϊόντος.</li><li><strong>excerpt=true/false</strong>: Εμφάνιση ή όχι "
+"της σύντομης περιγραφής.</li><li><strong>content=true/false</strong>: "
+"Εμφάνιση ή όχι του περιεχόμενου του προϊόντος.</li><li><strong>price=true/"
+"false</strong>: Εμφάνιση ή όχι των τιμών.</"
+"li><li><strong>addtocartbutton=top/bottom/both/none/product</strong>: Σε "
+"ποια θέση θα είναι το κουμπί προσθήκης στο καλάθι. Αν είναι στη θέση "
+"\"product\", δεν θα εμφανίζεται η επιλογή ποσότητας.</"
+"li><li><strong>stock=true/false</strong>: Εμφάνιση διαθεσιμότητας προϊόντων."
+"</li></ul>"
+
+#: ../adminpanel.php:56
+msgid "ChangeLog"
+msgstr "Ιστορικό Αλλαγών"
+
+#: ../adminpanel.php:58
+msgid "Initial Release"
+msgstr "Αρχική κυκλοφορία"
+
+#: ../adminpanel.php:59
+msgid "Added a CSS file."
+msgstr "Προσθήκη ενός αρχείου CSS."
+
+#: ../adminpanel.php:60
+msgid "Bugfixes, shortcodes."
+msgstr "Διορθώσεις σφαλμάτων, shortcodes."
+
+#: ../adminpanel.php:61
+msgid "Bugfixes, admin panel to choose if CSS will be loaded."
+msgstr ""
+"Διορθώσεις σφαλμάτων, περιβάλλον διαχείρησης για επιλογή του αν θα φορτωθεί "
+"το CSS αρχείο."
+
+#: ../adminpanel.php:62
+msgid ""
+"New admin panel with default display options, change of order, etc.<br /"
+">added id parameter to view specific products by ID<br />added producttitle "
+"parameter (default is true)<br />added add to cart button option: "
+"addtocartbutton Values: both (default), top, bottom, none"
+msgstr ""
+"Νέο περιβάλλον διαχείρισης με επιλογές για το ποια πεδία θα εμφανίζονται και "
+"με τι σειρά, κλπ.<br />προσθήκη νέων παραμέτρων στο shortcode: id για "
+"προβολή συγκεκριμένων προϊόντων, producttitle για προβολή τίτλου ή όχι, "
+"addtocartbutton για επιλογή θέσης κουμπιού για προσθήκη στο καλάθι."
+
+#: ../adminpanel.php:66
+msgid ""
+"cat parameter now also works with slugs<br />you can now add custom css "
+"rules in admin panel<br />minor fixes and security checks<br />option to "
+"have add to cart button for each product instead of quantity box<br />check "
+"if a product is purchasable and in stock before it gets displayed<br /"
+">maximum quantity is now determinated by wooCommerce and it's not a default "
+"99<br />added some more documentation<br />option to display stock and new "
+"shortcode variation (stock)"
+msgstr ""
+"Η παράμετρος cat πλέον λειτουργεί και με slugs<br />επιλογή στη διαχείρηση "
+"για προσαρμοσμένο CSS<br />μικρές διορθώσεις και έλεγχοι ασφάλειας<br /"
+">επιλογή για προσθήκη στο καλάθι σε κάθε προϊόν αντί για επιλογή "
+"ποσότητας<br />έλεγχος αν ένα προϊόν μπορεί να μπει στο καλάθι πριν την "
+"εμφάνισή του<br />η μέγιστη ποσότητα πλέον καθορίζεται από το WooCommerce, "
+"αντί να υπάρχει ένα γενικό μέγιστο (ήταν 99)<br />προσθήκη επιπλέον "
+"τεκμηρίωσης<br />επιλογή εμφάνισης διαθεσιμότητας και νέο σχετικό shortcode "
+"variation (stock=true/false)"
+
+#: ../adminpanel.php:80
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: ../adminpanel.php:81
+msgid ""
+"Please go to: <a href=\"http://members.pramnoshosting.com\" target=\"_blank"
+"\">Pramnos Hosting customer center</a> and open a support ticket."
+msgstr ""
+"Για τεχνική υποστήριξη, μπορείτε να επισκεφτείτε το <a href=\"http://members."
+"pramnoshosting.com\" target=\"_blank\">κέντρο πελατών της Pramnos Hosting "
+"Ltd.</a> και να κάνετε ένα νέο αίτημα."
+
+#: ../adminpanel.php:91
+msgid "Product List Pages"
+msgstr "Product List Pages"
+
+#: ../adminpanel.php:187
+msgid "Settings Saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#: ../adminpanel.php:199
+msgid "Product List Pages Options"
+msgstr "Επιλογές Product List Pages"
+
+#: ../adminpanel.php:220
+msgid "Default Fields to Display"
+msgstr "Πεδία για προβολή"
+
+#: ../adminpanel.php:221
+msgid "Drag and drop to change the order"
+msgstr "Αλλάξτε τη σειρά με drag and drop."
+
+#: ../adminpanel.php:257
+msgid "Field"
+msgstr "Πεδίο"
+
+#: ../adminpanel.php:258
+msgid "Display"
+msgstr "Προβολή"
+
+#: ../adminpanel.php:259
+msgid "Options"
+msgstr "Επιλογές"
+
+#: ../adminpanel.php:260
+msgid "Caption"
+msgstr "Ετικέτα"
+
+#: ../adminpanel.php:261
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../adminpanel.php:269 ../adminpanel.php:374
+msgid "Product Name"
+msgstr "Όνομα Προϊόντος"
+
+#: ../adminpanel.php:278
+msgid "Product Image"
+msgstr "Εικόνα Προϊόντος"
+
+#: ../adminpanel.php:280
+msgid "Display in name column"
+msgstr "Προβολή εικόνας μαζί με το όνομα"
+
+#: ../adminpanel.php:287
+msgid "Excerpt"
+msgstr "Σύντομη Περιγραφή"
+
+#: ../adminpanel.php:289
+msgid "Excerpt Length"
+msgstr "Μήκος περιγραφής"
+
+#: ../adminpanel.php:289 ../adminpanel.php:298
+msgid "characters"
+msgstr "χαρακτήρες"
+
+#: ../adminpanel.php:296 ../plugin.php:259
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: ../adminpanel.php:298
+msgid "Content Length"
+msgstr "Μήκος περιεχόμενου"
+
+#: ../adminpanel.php:305 ../plugin.php:270
+msgid "Price"
+msgstr "Τιμή"
+
+#: ../adminpanel.php:316 ../plugin.php:281
+msgid "Stock"
+msgstr "Διαθεσιμότητα"
+
+#: ../adminpanel.php:344
+msgid "Other Options"
+msgstr "Άλλες Επιλογές"
+
+#: ../adminpanel.php:346
+msgid "Load Stylesheet"
+msgstr "Φόρτωμα αρχείου Stylesheet"
+
+#: ../adminpanel.php:348 ../adminpanel.php:357 ../adminpanel.php:365
+msgid "Yes"
+msgstr "Ναι"
+
+#: ../adminpanel.php:349 ../adminpanel.php:358 ../adminpanel.php:366
+msgid "No"
+msgstr "Όχι"
+
+#: ../adminpanel.php:355
+msgid "Display field titles"
+msgstr "Προβολή τίτλων στις στήλες"
+
+#: ../adminpanel.php:363
+msgid "Display Variations"
+msgstr "Προβολή Variations"
+
+#: ../adminpanel.php:372
+msgid "Order by"
+msgstr "Ταξινόμιση ανά"
+
+#: ../adminpanel.php:375
+msgid "Product ID"
+msgstr "ID προϊόντος"
+
+#: ../adminpanel.php:379
+msgid "ASC"
+msgstr "ΑΥΞ"
+
+#: ../adminpanel.php:380
+msgid "DESC"
+msgstr "ΦΘΙΝ"
+
+#: ../adminpanel.php:385
+msgid "Add to cart button position"
+msgstr "Θέση για προσθήκη στο καλάθι"
+
+#: ../adminpanel.php:387
+msgid "Both"
+msgstr "Παντού"
+
+#: ../adminpanel.php:388
+msgid "Top"
+msgstr "Κορυφή"
+
+#: ../adminpanel.php:389
+msgid "Bottom"
+msgstr "Κάτω"
+
+#: ../adminpanel.php:390
+msgid "Next to product"
+msgstr "Δίπλα στο προϊόν"
+
+#: ../adminpanel.php:391
+msgid "None"
+msgstr "Πουθενά"
+
+#: ../adminpanel.php:398
+msgid "Custom CSS"
+msgstr "Προσαρμοσμένο CSS"
+
+#: ../plugin.php:200
+msgid "Products added to cart."
+msgstr "Τα προϊόντα προστέθηκαν στο καλάθι σας."
+
+#: ../plugin.php:209 ../plugin.php:671
+msgid "Add to Cart"
+msgstr "Προσθήκη στο Καλάθι"
+
+#: ../plugin.php:228
+msgid "Title"
+msgstr "Τίτλος"
+
+#: ../plugin.php:238
+msgid "Image"
+msgstr "Εικόνα"
+
+#: ../plugin.php:249
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: ../plugin.php:291
+msgid "Quantity"
+msgstr "Ποσότητα"
+
+#: ../plugin.php:524 ../plugin.php:638
+msgid "Add to cart"
+msgstr "Προσθήκη στο Καλάθι"
+
+#~ msgid "Size"
+#~ msgstr "Μέγεθος"
+
+#~ msgid "Classifieds"
+#~ msgstr "Αγγελίες"
+
+#~ msgid "Classified"
+#~ msgstr "Αγγελία"
+
+#~ msgid "Add New Classified"
+#~ msgstr "Νέα Αγγελία"
+
+#~ msgid "Search Classifieds"
+#~ msgstr "Αναζήτηση Αγγελίας"
+
+#~ msgid "Add New"
+#~ msgstr "Προσθήκη"
+
+#~ msgid "Edit Classified"
+#~ msgstr "Επεξεργασία Αγγελίας"
+
+#~ msgid "New Classified"
+#~ msgstr "Νέα Αγγελία"
+
+#~ msgid "All Classifieds"
+#~ msgstr "Αγγελίες"
+
+#~ msgid "View Classifieds"
+#~ msgstr "Προβολή Αγγελιών"
+
+#~ msgid "No Classifieds found"
+#~ msgstr "Δεν βρέθηκε καμία αγγελία..."
+
+#~ msgid "No Classifieds found in Trash"
+#~ msgstr "Δεν βρέθηκε καμία αγγελία στον κάδο"
+
+#~ msgid "Location"
+#~ msgstr "Περιοχή"
+
+#~ msgid "Search Locations"
+#~ msgstr "Αναζήτηση Περιοχής"
+
+#~ msgid "All Locations"
+#~ msgstr "Όλες οι περιοχές"
+
+#~ msgid "Parent Location"
+#~ msgstr "Γονέας περιοχής"
+
+#~ msgid "Parent Location:"
+#~ msgstr "Γονέας περιοχής:"
+
+#~ msgid "Edit Location"
+#~ msgstr "Επεξεργασία Περιοχής"
+
+#~ msgid "Update Location"
+#~ msgstr "Ενημέρωση Περιοχής"
+
+#~ msgid "Add New Location"
+#~ msgstr "Προσθήκη Περιοχής"
+
+#~ msgid "New Location"
+#~ msgstr "Νέα Περιοχή"
+
+#~ msgid "Locations"
+#~ msgstr "Περιοχές"
+
+#~ msgid "Vendor Category"
+#~ msgstr "Κατηγορία Συνεργάτη"
+
+#~ msgid "Search Vendor Categories"
+#~ msgstr "Αναζήτηση στις κατηγορίες συνεργατών"
+
+#~ msgid "All Vendor Categories"
+#~ msgstr "Όλες οι κατηγορίες συνεργατών"
+
+#~ msgid "Parent Category"
+#~ msgstr "Γονική Κατηγορία"
+
+#~ msgid "Parent Category:"
+#~ msgstr "Γονική Κατηγορία:"
+
+#~ msgid "Edit Vendor Category"
+#~ msgstr "Επεξεργασία κατηγορίας συνεργάτη"
+
+#~ msgid "Update Category"
+#~ msgstr "Ενημέρωση κατηγορίας"
+
+#~ msgid "Add New Vendor Category"
+#~ msgstr "Προσθήκη κατηγορίας συνεργάτη"
+
+#~ msgid "New Vendor Category"
+#~ msgstr "Νέα κατηγορία συνεργάτη"
+
+#~ msgid "Vendor Categories"
+#~ msgstr "Κατηγορίες Vendor"
+
+#~ msgid "Virtual Goods"
+#~ msgstr "Εικονικά Αγαθά"
+
+#~ msgid "Virtual Good"
+#~ msgstr "Εικονικό Αγαθό"
+
+#~ msgid "Add Virtual Good"
+#~ msgstr "Προσθήκη Εικονικού Αγαθού"
+
+#~ msgid "Search Virtual Goods"
+#~ msgstr "Αναζήτηση Εικονικών Αγαθών"
+
+#~ msgid "Edit Virtual Good"
+#~ msgstr "Επεξεργασία Εικονικού Αγαθού"
+
+#~ msgid "New Virtual Good"
+#~ msgstr "Νέο Εικονικό Αγαθό"
+
+#~ msgid "All Virtual Goods"
+#~ msgstr "Όλα τα Εικονικά Αγαθά"
+
+#~ msgid "View Virtual Goods"
+#~ msgstr "Προβολή Εικονικών Αγαθών"
+
+#~ msgid "No Virtual Goods found"
+#~ msgstr "Δεν βρέθηκε κανένα εικονικό αγαθό"
+
+#~ msgid "No Virtual Goods found in Trash"
+#~ msgstr "Δεν βρέθηκε κανένα εικονικό αγαθό στον κάδο"
+
+#~ msgid "You don't have access to this classified."
+#~ msgstr "Δεν έχετε πρόσβαση σε αυτή την αγγελία"
+
+#~ msgid "Gain access now."
+#~ msgstr "Αποκτήστε πρόσβαση τώρα."
+
+#~ msgid "Please login to see contact information..."
+#~ msgstr "Παρακαλούμε εισέλθετε για να δείτε τις πληροφορίες επικοινωνίας"
+
+#~ msgid "Send Email"
+#~ msgstr "Αποστολή Email"
+
+#~ msgid "Email Settings"
+#~ msgstr "Ρυθμίσεις Email"
+
+#~ msgid "Affiliates"
+#~ msgstr "Συνεργάτες"
+
+#~ msgid "General Category"
+#~ msgstr "Γενική Κατηγορία"
+
+#~ msgid "General"
+#~ msgstr "Γενικά"
+
+#~ msgid "Vendor Profiles"
+#~ msgstr "Προφίλ Επαγγελματιών"
+
+#~ msgid "User Profiles"
+#~ msgstr "Προφίλ Χρηστών"
+
+#~ msgid "Classified Fields"
+#~ msgstr "Πεδία αγγελίας"
+
+#~ msgid "Subscriptions"
+#~ msgstr "Συνδρομές"
+
+#~ msgid "Pricing"
+#~ msgstr "Τιμολόγιση"
+
+#~ msgid "Gateways"
+#~ msgstr "Τρόποι Πληρωμής"
+
+#~ msgid "Templates"
+#~ msgstr "Εμφάνιση"
+
+#~ msgid "Price:"
+#~ msgstr "Τιμή:"
+
+#~ msgid "Date"
+#~ msgstr "Ημερομηνία"
+
+#~ msgid "Vendorship Functions"
+#~ msgstr "Vendorship Functions"
+
+#~ msgid "Vendorship Credits"
+#~ msgstr "Πληροφορίες"
+
+#~ msgid "Member options for Vendorship addon"
+#~ msgstr "Επιλογές μελών για το Vendorship Plugin"
+
+#~ msgid "Edit Profile"
+#~ msgstr "Επεξεργασία Προφίλ"
+
+#~ msgid "My Classifieds"
+#~ msgstr "Οι Αγγελίες Μου"
+
+#~ msgid "New title"
+#~ msgstr "Νέος Τίτλος"
+
+#~ msgid "Settings"
+#~ msgstr "Ρυθμίσεις"
+
+#~ msgid "Refferal"
+#~ msgstr "Αναφορά Από"
+
+#~ msgid "User"
+#~ msgstr "Χρήστης"
+
+#~ msgid "User Type"
+#~ msgstr "Τύπος Χρήστη"
+
+#~ msgid "Registration Date"
+#~ msgstr "Ημερομηνία Εγγραφής"
+
+#~ msgid "Affiliate Settings"
+#~ msgstr "Ρυθμίσεις Affiliate"
+
+#~ msgid "Affiliates Parameter"
+#~ msgstr "Παράμετρος URL για affiliates"
+
+#~ msgid "Affiliate Cookie in Days"
+#~ msgstr "Διάρκεια ζωής του cookie<br />σε ημέρες"
+
+#~ msgid "Save Settings"
+#~ msgstr "Αποθήκευση Ρυθμίσεων"
+
+#~ msgid "Save Fields"
+#~ msgstr "Αποθήκευση Πεδίων"
+
+#~ msgid "Name"
+#~ msgstr "Όνομα"
+
+#~ msgid "Type"
+#~ msgstr "Τύπος"
+
+#~ msgid "Required"
+#~ msgstr "Απαιτείται"
+
+#~ msgid "Actions"
+#~ msgstr "Ενέργειες"
+
+#~ msgid "Remove"
+#~ msgstr "Αφαίρεση"
+
+#~ msgid "Pricing by"
+#~ msgstr "Τιμολόγιση με βάση"
+
+#~ msgid "Credits"
+#~ msgstr "Μονάδες"
+
+#~ msgid "Money"
+#~ msgstr "Χρήματα"
+
+#~ msgid "Credit Actions"
+#~ msgstr "Ενέργειες Μονάδων"
+
+#~ msgid "Allow users to buy credits"
+#~ msgstr "Να επιτρέπεται η αγορά μονάδων"
+
+#~ msgid "View Classified Cost"
+#~ msgstr "Κόστος προβολής αγγελίας"
+
+#~ msgid "Contact User Cost"
+#~ msgstr "Κόστος στοιχείων επικοινωνίας"
+
+#~ msgid "Offer Cost in Money"
+#~ msgstr "Κόστος Προσφοράς"
+
+#~ msgid "From"
+#~ msgstr "Από"
+
+#~ msgid "Percent Fee"
+#~ msgstr "Ποσοστό Αμοιβής"
+
+#~ msgid "Fix Price"
+#~ msgstr "Τιμή"
+
+#~ msgid "Add Row"
+#~ msgstr "Προσθήκη Γραμμής"
+
+#~ msgid "Test Result"
+#~ msgstr "Αποτέλεσμα δοκιμής:"
+
+#~ msgid "Test"
+#~ msgstr "Δοκιμή"
+
+#~ msgid "Offer Price"
+#~ msgstr "Τιμή Προσφοράς"
+
+#~ msgid "Try it"
+#~ msgstr "Δοκίμασέ το"
+
+#~ msgid "Vendorship Options"
+#~ msgstr "Επιλογές VendorShip"
+
+#~ msgid "Where to go after login"
+#~ msgstr "Μετά την είσοδο πήγαινε σε"
+
+#~ msgid "Where to go after vendor registration"
+#~ msgstr "Μετά την είσοδο επαγγελματία<br />πήγαινε σε"
+
+#~ msgid "Where to go after user registration"
+#~ msgstr "Μετά την είσοδο χρήστη<br />πήγαινε σε"
+
+#~ msgid "Currency"
+#~ msgstr "Νόμισμα"
+
+#~ msgid "Vendorship Pages"
+#~ msgstr "Σελίδες"
+
+#~ msgid "Login Page"
+#~ msgstr "Σελίδα Εισόδου"
+
+#~ msgid "Edit Profile Page"
+#~ msgstr "Σελίδα Επεξεργασίας Προφίλ"
+
+#~ msgid "Contact Details Confirm"
+#~ msgstr "Επιβεβαίωση Προβολής Στοιχείων"
+
+#~ msgid "Checkout Page"
+#~ msgstr "Ολοκλήρωση Παραγγελίας"
+
+#~ msgid "Edit Classified Page"
+#~ msgstr "Επεξεργασία Σελίδας Αγγελίας"
+
+#~ msgid "New Classified Page"
+#~ msgstr "Σελίδα Νέας Αγγελίας"
+
+#~ msgid "My Classifieds Page"
+#~ msgstr "Σελίδα \"Οι Αγγελίες Μου\""
+
+#~ msgid "New Vendor Registration"
+#~ msgstr "Εγγραφή Νέου Vendor"
+
+#~ msgid "New User Registration"
+#~ msgstr "Εγγραφή Νέου χρήστη"
+
+#~ msgid "Messages Page"
+#~ msgstr "Σελίδα μηνυμάτων"
+
+#~ msgid "Offers Page"
+#~ msgstr "Σελίδα Προσφορών"
+
+#~ msgid "Vendors List"
+#~ msgstr "Λίστα Συνεργατών"
+
+#~ msgid "Vendor Details Page"
+#~ msgstr "Σελίδα με πληροφορίες συνεργάτη"
+
+#~ msgid "Default Vendorship Page"
+#~ msgstr "Προεπιλεγμένη σελίδα του Plugin"
+
+#~ msgid "Default Wordpress Page"
+#~ msgstr "Προεπιλεγμένη σελίδα του Wordpress"
+
+#~ msgid "Add Subscription Type"
+#~ msgstr "Προσθήκη πακέτου"
+
+#~ msgid "Save Subscription Types"
+#~ msgstr "Αποθήκευση πακέτων"
+
+#~ msgid "Days"
+#~ msgstr "Ημέρες"
+
+#~ msgid "Logo"
+#~ msgstr "Λογότυπο"
+
+#~ msgid "Covered Locations"
+#~ msgstr "Κάλυψη Περιοχών"
+
+#~ msgid "Covered Categories"
+#~ msgstr "Κάλυψη Κατηγοριών"
+
+#~ msgid "Classified in Archive"
+#~ msgstr "Αγγελία σε Αρχείο"
+
+#~ msgid "Contact Info"
+#~ msgstr "Στοιχεία Επικοινωνίας"
+
+#~ msgid "Subscription Package"
+#~ msgstr "Πακέτο Συνδρομής"
+
+#~ msgid "Profile CSS"
+#~ msgstr "CSS των προφίλ"
+
+#~ msgid "Text Field"
+#~ msgstr "Πεδίο Κειμένου"
+
+#~ msgid "Text Area"
+#~ msgstr "Μεγάλο Κείμενο"
+
+#~ msgid "Check Box"
+#~ msgstr "Check Box"
+
+#~ msgid "Please select a payment way"
+#~ msgstr "Παρακαλούμε επιλέξτε έναν τρόπο πληρωμής"
+
+#~ msgid "Checkout"
+#~ msgstr "Επιβεβαίωση Παραγγελίας"
+
+#~ msgid "You are not a vendor..."
+#~ msgstr "Δεν είστε επαγγελματίας."
+
+#~ msgid "To view this post you must spend"
+#~ msgstr "Για να δείτε αυτή τη δημοσίευση πρέπει να πληρώσετε"
+
+#~ msgid "credits"
+#~ msgstr "μονάδες"
+
+#~ msgid "You currently have"
+#~ msgstr "Αυτή τη στιγμή έχετε"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Είστε σίγουρος;"
+
+#~ msgid "You must fill ALL required fields."
+#~ msgstr "Πρέπει να συμπληρώσετε ΟΛΑ τα απαραίτητα πεδία."
+
+#~ msgid "You are not loged in..."
+#~ msgstr "Δεν έχετε εισέλθει..."
+
+#~ msgid "First Name *"
+#~ msgstr "Όνομα"
+
+#~ msgid "Last Name *"
+#~ msgstr "Επώνυμο"
+
+#~ msgid "Website"
+#~ msgstr "Ιστοσελίδα"
+
+#~ msgid "Save Profile"
+#~ msgstr "Αποθήκευση Προφίλ"
+
+#~ msgid "Company Name *"
+#~ msgstr "Εταιρεία"
+
+#~ msgid "City / Location"
+#~ msgstr "Πόλη  / Περιοχή"
+
+#~ msgid "Regions"
+#~ msgstr "Περιοχές"
+
+#~ msgid ""
+#~ "Vendorship plugin is developed by <a href='http://www.pramhost."
+#~ "com'>Pramnos Hosting Ltd.</a> and <a href='http://www.creativeg."
+#~ "gr'>CreativeG</a>."
+#~ msgstr ""
+#~ "Το Vendorship Plugin έχει αναπτυχθεί από την <a href='http://www.pramhost."
+#~ "com'>Pramnos Hosting Ltd.</a> και την <a href='http://www.creativeg."
+#~ "gr'>CreativeG</a>."
+
+#~ msgid ""
+#~ "To help designers create new themes supporting Vendorship, the plugin "
+#~ "offers the following functions:"
+#~ msgstr ""
+#~ "Για να μπορούν οι σχεδιαστές να δημιουργήσουν νέα themes τα οποία να "
+#~ "συνεργάζονται με το plugin, υπάρχουν οι παρακάτω functions:"
+
+#~ msgid "Returns all vendor categories of a vendor"
+#~ msgstr "Επιστρέφει όλες τις κατηγορίες ενός vendor"
+
+#~ msgid "Gets a vendors covered locations"
+#~ msgstr "Επιστρέφει όλες τις περιοχές που καλύπτει ένας vendor"
+
+#~ msgid "Gets a vendors covered class categories"
+#~ msgstr "Επιστρέφει τις κατηγορίες αγγελιών που καλύπτει ένας vendor."
+
+#~ msgid ""
+#~ "Return an image by it's ID. It displays a thumbnail with link to a larger "
+#~ "size. If you set the second parameter to true, it returns an array with "
+#~ "the links for image sizes."
+#~ msgstr ""
+#~ "Επιστρέφει μια εικόνα με βάση το id της. Εμφανίζει ένα thumbnail στο "
+#~ "οποίο αν κάνεις κλικ ανοίγει η μεγάλη photo (και έχει rel=lightbox για να "
+#~ "παίζει και lightbox αν έχεις plugin). <br />Αν βάλεις σαν δεύτερη "
+#~ "παράμετρο true, επιστρέφει ένα array με τα url της φωτογραφίας και του "
+#~ "thumbnail ώστε εσύ να κάνεις ότι θες."
+
+#~ msgid "Get the vendor categories of a classified post."
+#~ msgstr "Επιστρέφει τις κατηγορίες Vendor μιας αγγελίας."
+
+#~ msgid "Get the class categories of a classified post."
+#~ msgstr "Επιστρέφει τις κατηγορίες μιας αγγελίας."
+
+#~ msgid "Get the class location of a classified post."
+#~ msgstr "Επιστρέφει την περιοχή μιας αγγελίας."
+
+#~ msgid "Show an affiliate URL with current user's ID"
+#~ msgstr ""
+#~ "Εμφανίζει το affiliate url για τον τρέχων χρήστη. Για να λειτουργήσει, "
+#~ "πρέπει να έχουν οριστεί στη διαχείριση η διάρκεια του cookie (και να "
+#~ "είναι μεγαλύτερη από 0), και η παράμετρος των affiliate."
+
+#~ msgid "Display user (customer) registration form"
+#~ msgstr "Εμφανίζει τη φόρμα εγγραφής για τους απλούς χρήστες."
+
+#~ msgid "Show vendorship login form"
+#~ msgstr "Εμφανίζει μια φόρμα εισόδου."
+
+#~ msgid "Show edit profile form"
+#~ msgstr "Εμφανίζει μια φόρμα επεξεργασίας προφίλ."
+
+#~ msgid "Display user profile"
+#~ msgstr "Εμφάνιση προφίλ χρήστη"
+
+#~ msgid "Display Edit Classified form"
+#~ msgstr "Εμφάνιση φόρμας επεξεργασίας αγγελίας"
+
+#~ msgid "Display a list of classified categories"
+#~ msgstr "Εμφάνιση λίστας με κατηγορίες αγγλιών"
+
+#~ msgid "Show current user role"
+#~ msgstr "Εμφανίζει το role του χρήστη."
+
+#~ msgid ""
+#~ "Display some information ONLY to users (customers).<br />Use Example:<br /"
+#~ ">[user]This will be displayed ONLY to users[/user]"
+#~ msgstr ""
+#~ "Εμφανίζει κάτι μόνο στους απλούς χρήστες.<br />Παράδειγμα χρήσης:<br />"
+#~ "[user]This will be displayed ONLY to users[/user]"
+
+#~ msgid ""
+#~ "Display some information ONLY to vendors.<br />Use Example:<br />[vendor]"
+#~ "This will be displayed ONLY to vendors[/vendor]"
+#~ msgstr ""
+#~ "Εμφανίζει κάτι μόνο στους vendors.<br />Παράδειγμα χρήσης:<br />[vendor]"
+#~ "This will be displayed ONLY to vendors[/vendor]"
+
+#~ msgid ""
+#~ "Display some information only to users with a specific role.<br />Use "
+#~ "Example:<br />[isrole role=\"editor\"]Display this text only to editors.[/"
+#~ "isrole]"
+#~ msgstr ""
+#~ "Εμφάνιση κάποιου κειμένου μόνο σε χρήστες με ένα συγκεκριμένο role.<br /"
+#~ ">Παράδειγμα Χρήσης:<br />[isrole role=\"editor\"]Display this text only "
+#~ "to editors.[/isrole]"
+
+#~ msgid "Classified Title"
+#~ msgstr "Τίτλος αγγελίας"
+
+#~ msgid "Event date"
+#~ msgstr "Ημερομηνία"
+
+#~ msgid "Looking for"
+#~ msgstr "Αναζήτηση για"
+
+#~ msgid "Save Classified"
+#~ msgstr "Αποθήκευση"
+
+#~ msgid "You cannot post classifieds as a vendor"
+#~ msgstr "Δεν μπορείτε να δημοσιεύσετε αγγελίες ως επαγγελματίας..."
+
+#~ msgid "This username already exists"
+#~ msgstr "Αυτό το username υπάρχει ήδη"
+
+#~ msgid ""
+#~ "The passwords you entered do not match.  Your password was not updated."
+#~ msgstr "Τα συνθηματικά δεν ταιριάζουν. Δεν ανανεώθηκε το συνθηματικό σας."
+
+#~ msgid "You MUST enter a password"
+#~ msgstr "Πρέπει να εισάγετε ένα συνθηματικό"
+
+#~ msgid "You are loged in... You cannot create new account."
+#~ msgstr ""
+#~ "Έχετε ήδη εισέλθει σαν χρήστης. Δεν μπορείτε να δημιουργήσετε νέο "
+#~ "λογαριασμό."
+
+#~ msgid "Telephone to contact administrator *"
+#~ msgstr "Τηλέφωνο επικοινωνίας με τη διαχείρηση"
+
+#~ msgid "Telephone to contact Vendors"
+#~ msgstr "Τηλέφωνο επικοινωνίας"
+
+#~ msgid "Password *"
+#~ msgstr "Συνθηματικό"
+
+#~ msgid "Repeat Password *"
+#~ msgstr "Επανάληψη Συνθηματικού"
+
+#~ msgid "Register"
+#~ msgstr "Εγγραφή"
+
+#~ msgid "Company Name"
+#~ msgstr "Επωνυμία Εταιρείας"
+
+#~ msgid "Affiliate cookie life in days"
+#~ msgstr "Ημέρες ζωής του cookie"

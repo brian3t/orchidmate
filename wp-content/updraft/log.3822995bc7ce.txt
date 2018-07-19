@@ -1,0 +1,874 @@
+0000.000 (0) Opened log file at time: Mon, 12 Feb 2018 07:16:50 +0000 on http://orchidmate.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.3 WP: 4.9.4 PHP: 5.6.32 (cgi-fcgi, Linux a2plcpnl0614.prod.iad2.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54.3M | 54.8M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: N
+0000.176 (0) Free space on disk containing Updraft's temporary directory: 2040940 MB
+0000.179 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.180 (0) Semaphore (fd, wp_options) being initialised
+0000.188 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.191 (0) Set semaphore last lock (fd) time to 2018-02-12 07:16:50
+0000.192 (0) Semaphore lock (fd) complete
+0000.196 (0) Backup run: resumption=0, nonce=3822995bc7ce, begun at=1518419810 (0s ago), job type=backup
+0000.206 (0) Scheduling a resumption (1) after 300 seconds (1518420110) in case this run gets aborted
+0000.217 (0) Checking if we have a zip executable available
+0000.218 (0) Testing: /usr/bin/zip
+0000.226 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.228 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.228 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.229 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.230 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.237 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.238 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.246 (0) Working binary zip found: /usr/bin/zip
+0000.248 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.249 (0) Creation of backups of directories: beginning
+0000.252 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.808 (0) Total entities for the zip file: 587 directories, 3439 files (0 skipped as non-modified), 55.7 MB
+0000.813 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.818 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.822 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.826 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.830 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.831 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 3439 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0010.550 (0) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: size is now: 7.00 MB
+0010.556 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 600 files added (on-disk size: 7211 KB)
+0010.563 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 700 files added (on-disk size: 7211 KB)
+0010.569 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 800 files added (on-disk size: 7211 KB)
+0010.574 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 900 files added (on-disk size: 7211 KB)
+0010.581 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 1000 files added (on-disk size: 7211 KB)
+0010.595 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 3439 files batched, 501 (1002) added so far); re-opening (prior size: 7211 KB)
+0021.359 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 1100 files added (on-disk size: 7900.6 KB)
+0021.365 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 1200 files added (on-disk size: 7900.6 KB)
+0021.370 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 1300 files added (on-disk size: 7900.6 KB)
+0021.374 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 1400 files added (on-disk size: 7900.6 KB)
+0021.379 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 1500 files added (on-disk size: 7900.6 KB)
+0021.380 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 3439 files batched, 501 (1503) added so far); re-opening (prior size: 7900.6 KB)
+0027.704 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 1600 files added (on-disk size: 8903.2 KB)
+0027.708 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 1700 files added (on-disk size: 8903.2 KB)
+0027.716 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 1800 files added (on-disk size: 8903.2 KB)
+0027.720 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 1900 files added (on-disk size: 8903.2 KB)
+0027.729 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 2000 files added (on-disk size: 8903.2 KB)
+0027.731 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.4 MB, 3439 files batched, 501 (2004) added so far); re-opening (prior size: 8903.2 KB)
+0034.449 (0) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: size is now: 13.70 MB
+0034.456 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 2100 files added (on-disk size: 14016.4 KB)
+0034.460 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 2200 files added (on-disk size: 14016.4 KB)
+0034.463 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 2300 files added (on-disk size: 14016.4 KB)
+0034.467 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 2400 files added (on-disk size: 14016.4 KB)
+0034.471 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 2500 files added (on-disk size: 14016.4 KB)
+0034.472 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9 MB, 3439 files batched, 501 (2505) added so far); re-opening (prior size: 14016.4 KB)
+0043.140 (0) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: size is now: 19.30 MB
+0043.149 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 2600 files added (on-disk size: 19785.8 KB)
+0043.164 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 2700 files added (on-disk size: 19785.8 KB)
+0043.169 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 2800 files added (on-disk size: 19785.8 KB)
+0043.175 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 2900 files added (on-disk size: 19785.8 KB)
+0043.186 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 3000 files added (on-disk size: 19785.8 KB)
+0043.190 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 3439 files batched, 501 (3006) added so far); re-opening (prior size: 19785.8 KB)
+0067.884 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 3100 files added (on-disk size: 21885.6 KB)
+0067.891 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 3200 files added (on-disk size: 21885.6 KB)
+0067.899 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 3300 files added (on-disk size: 21885.6 KB)
+0067.905 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: 3400 files added (on-disk size: 21885.6 KB)
+0093.292 (0) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip.tmp: size is now: 26.10 MB
+0093.994 (0) Created plugins zip (0) - 26681.4 KB in 93.6 s (285.1 KB/s) (sha1: 44a5c37ebef9660bf94a021d44547d64ebb091bd, sha256: a206d461b026ccc5c0f4e62a922bd236fa706151b6fda68b1416b275df52d029)
+0093.996 (0) Beginning creation of dump of themes (split every: 400 MB)
+0094.237 (0) Total entities for the zip file: 47 directories, 433 files (0 skipped as non-modified), 4.5 MB
+0094.242 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0094.246 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0094.251 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0094.255 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0098.118 (0) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip.tmp: size is now: 2.50 MB
+0098.161 (0) Created themes zip (0) - 2538.1 KB in 4 s (634.4 KB/s) (sha1: 35cdd11affb3ea84e87fc88cb05ec1169c1058fe, sha256: 54aa8dec9564f0a0420ce1e91a768ebb8265dd149c09efb22f1f911e88bd540d)
+0098.164 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0098.165 (0) Looking for candidates to back up in: /home/o85108989/public_html/wp-content/uploads
+0098.166 (0) finding files: ithemes-security: adding to list (1)
+0098.167 (0) finding files: 2016: adding to list (2)
+0098.167 (0) finding files: wc-logs: adding to list (3)
+0098.168 (0) finding files: woocommerce_uploads: adding to list (4)
+0098.169 (0) finding files: 2018: adding to list (5)
+0098.169 (0) finding files: 2012: adding to list (6)
+0098.170 (0) finding files: 2015: adding to list (7)
+0098.171 (0) finding files: GeoIP.dat: adding to list (8)
+0098.171 (0) finding files: GeoIPv6.dat: adding to list (9)
+0098.172 (0) finding files: master-slider: adding to list (10)
+0098.173 (0) finding files: 2017: adding to list (11)
+0098.174 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0098.529 (0) Total entities for the zip file: 32 directories, 1488 files (0 skipped as non-modified), 213.4 MB
+0098.535 (0) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0098.538 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.5 MB, 1488 files batched, 159 (159) added so far); re-opening (prior size: 0 KB)
+0304.027 (1) Opened log file at time: Mon, 12 Feb 2018 07:21:54 +0000 on http://orchidmate.com
+0304.028 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.3 WP: 4.9.4 PHP: 5.6.32 (cgi-fcgi, Linux a2plcpnl0614.prod.iad2.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 45M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: N
+0304.192 (1) Free space on disk containing Updraft's temporary directory: 2040885.9 MB
+0304.195 (1) Backup run: resumption=1, nonce=3822995bc7ce, begun at=1518419810 (304s ago), job type=backup, previous check-in=124s
+0304.196 (1) Scheduling a resumption (2) after 300 seconds (1518420414) in case this run gets aborted
+0304.207 (1) Checking if we have a zip executable available
+0304.208 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0304.209 (1) Creation of backups of directories: had begun; will resume
+0304.211 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0304.212 (1) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: this file has already been created (age: 211 s)
+0304.214 (1) Beginning creation of dump of themes (split every: 400 MB)
+0304.215 (1) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: this file has already been created (age: 206 s)
+0304.217 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0304.218 (1) Looking for candidates to back up in: /home/o85108989/public_html/wp-content/uploads
+0304.219 (1) finding files: ithemes-security: adding to list (1)
+0304.220 (1) finding files: 2016: adding to list (2)
+0304.220 (1) finding files: wc-logs: adding to list (3)
+0304.221 (1) finding files: woocommerce_uploads: adding to list (4)
+0304.222 (1) finding files: 2018: adding to list (5)
+0304.223 (1) finding files: 2012: adding to list (6)
+0304.223 (1) finding files: 2015: adding to list (7)
+0304.224 (1) finding files: GeoIP.dat: adding to list (8)
+0304.225 (1) finding files: GeoIPv6.dat: adding to list (9)
+0304.226 (1) finding files: master-slider: adding to list (10)
+0304.226 (1) finding files: 2017: adding to list (11)
+0304.227 (1) Beginning creation of dump of uploads (split every: 400 MB)
+0304.228 (1) File exists (/home/o85108989/public_html/wp-content/updraft/backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1518419966, time_now=1518420114, diff=148)
+0304.410 (1) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: Zip file already exists, with 159 files
+0304.440 (1) Total entities for the zip file: 32 directories, 1488 files (0 skipped as non-modified), 213.4 MB
+0304.443 (1) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 100 files added (on-disk size: 22103.2 KB)
+0304.445 (1) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 200 files added (on-disk size: 22103.2 KB)
+0304.449 (1) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 300 files added (on-disk size: 22103.2 KB)
+0304.451 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 1488 files batched, 206 (206) added so far); re-opening (prior size: 22103.2 KB)
+0365.338 (1) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: size is now: 46.90 MB
+0365.341 (1) A useful amount of data was added after this amount of zip processing: 61.6 s (normalised: 60.9 s, rate: 420.5 KB/s)
+0365.343 (1) Performance is good - will increase the amount of data we attempt to batch (time=61.62305188179, normalised_time=60.875442996317, max_time=124, data points known=1, old_max_bytes=26214400, new_max_bytes=32038392)
+0365.346 (1) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 400 files added (on-disk size: 48061.6 KB)
+0365.349 (1) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 500 files added (on-disk size: 48061.6 KB)
+0365.351 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 30.6 MB added on this batch (31.1 MB, 1488 files batched, 169 (375) added so far); re-opening (prior size: 48061.6 KB)
+0606.785 (2) Opened log file at time: Mon, 12 Feb 2018 07:26:57 +0000 on http://orchidmate.com
+0606.786 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.3 WP: 4.9.4 PHP: 5.6.32 (cgi-fcgi, Linux a2plcpnl0614.prod.iad2.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 45M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: N
+0607.174 (2) Free space on disk containing Updraft's temporary directory: 2040827.7 MB
+0607.230 (2) Backup run: resumption=2, nonce=3822995bc7ce, begun at=1518419810 (607s ago), job type=backup, previous check-in=121.2s
+0607.232 (2) Scheduling a resumption (3) after 300 seconds (1518420717) in case this run gets aborted
+0607.340 (2) Checking if we have a zip executable available
+0607.341 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0607.342 (2) Creation of backups of directories: had begun; will resume
+0607.346 (2) Beginning creation of dump of plugins (split every: 400 MB)
+0607.347 (2) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: this file has already been created (age: 514 s)
+0607.356 (2) Beginning creation of dump of themes (split every: 400 MB)
+0607.357 (2) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: this file has already been created (age: 509 s)
+0607.368 (2) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0607.369 (2) Looking for candidates to back up in: /home/o85108989/public_html/wp-content/uploads
+0607.370 (2) finding files: ithemes-security: adding to list (1)
+0607.371 (2) finding files: 2016: adding to list (2)
+0607.372 (2) finding files: wc-logs: adding to list (3)
+0607.373 (2) finding files: woocommerce_uploads: adding to list (4)
+0607.374 (2) finding files: 2018: adding to list (5)
+0607.376 (2) finding files: 2012: adding to list (6)
+0607.377 (2) finding files: 2015: adding to list (7)
+0607.378 (2) finding files: GeoIP.dat: adding to list (8)
+0607.382 (2) finding files: GeoIPv6.dat: adding to list (9)
+0607.383 (2) finding files: master-slider: adding to list (10)
+0607.384 (2) finding files: 2017: adding to list (11)
+0607.385 (2) Beginning creation of dump of uploads (split every: 400 MB)
+0607.386 (2) File exists (/home/o85108989/public_html/wp-content/updraft/backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1518420297, time_now=1518420417, diff=120)
+0607.950 (2) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: Zip file already exists, with 534 files
+0608.019 (2) Total entities for the zip file: 32 directories, 1488 files (0 skipped as non-modified), 213.4 MB
+0608.022 (2) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 100 files added (on-disk size: 79971.2 KB)
+0608.024 (2) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 200 files added (on-disk size: 79971.2 KB)
+0608.025 (2) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 300 files added (on-disk size: 79971.2 KB)
+0608.027 (2) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 400 files added (on-disk size: 79971.2 KB)
+0608.028 (2) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 500 files added (on-disk size: 79971.2 KB)
+0608.031 (2) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 600 files added (on-disk size: 79971.2 KB)
+0608.036 (2) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 700 files added (on-disk size: 79971.2 KB)
+0608.041 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 30.6 MB added on this batch (30.9 MB, 1488 files batched, 262 (262) added so far); re-opening (prior size: 79971.2 KB)
+0907.245 (3) Opened log file at time: Mon, 12 Feb 2018 07:31:57 +0000 on http://orchidmate.com
+0907.247 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.3 WP: 4.9.4 PHP: 5.6.32 (cgi-fcgi, Linux a2plcpnl0614.prod.iad2.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 45M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: N
+0907.494 (3) Free space on disk containing Updraft's temporary directory: 2040798.4 MB
+0907.497 (3) Backup run: resumption=3, nonce=3822995bc7ce, begun at=1518419810 (907s ago), job type=backup
+0907.498 (3) Scheduling a resumption (4) after 300 seconds (1518421017) in case this run gets aborted
+0907.517 (3) Checking if we have a zip executable available
+0907.518 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+0907.518 (3) Creation of backups of directories: had begun; will resume
+0907.519 (3) No check-in was detected on the previous run - as a result, we are reducing the batch amount (old=32038392, new=24028794)
+0907.524 (3) Beginning creation of dump of plugins (split every: 400 MB)
+0907.525 (3) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: this file has already been created (age: 814 s)
+0907.538 (3) Beginning creation of dump of themes (split every: 400 MB)
+0907.538 (3) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: this file has already been created (age: 809 s)
+0907.541 (3) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0907.542 (3) Looking for candidates to back up in: /home/o85108989/public_html/wp-content/uploads
+0907.543 (3) finding files: ithemes-security: adding to list (1)
+0907.543 (3) finding files: 2016: adding to list (2)
+0907.544 (3) finding files: wc-logs: adding to list (3)
+0907.545 (3) finding files: woocommerce_uploads: adding to list (4)
+0907.546 (3) finding files: 2018: adding to list (5)
+0907.547 (3) finding files: 2012: adding to list (6)
+0907.547 (3) finding files: 2015: adding to list (7)
+0907.548 (3) finding files: GeoIP.dat: adding to list (8)
+0907.549 (3) finding files: GeoIPv6.dat: adding to list (9)
+0907.550 (3) finding files: master-slider: adding to list (10)
+0907.551 (3) finding files: 2017: adding to list (11)
+0907.551 (3) Beginning creation of dump of uploads (split every: 400 MB)
+0907.553 (3) File exists (/home/o85108989/public_html/wp-content/updraft/backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1518420621, time_now=1518420717, diff=96)
+0907.766 (3) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: Zip file already exists, with 796 files
+0907.847 (3) Total entities for the zip file: 32 directories, 1488 files (0 skipped as non-modified), 213.4 MB
+0907.850 (3) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 100 files added (on-disk size: 111624.5 KB)
+0907.852 (3) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 200 files added (on-disk size: 111624.5 KB)
+0907.853 (3) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 300 files added (on-disk size: 111624.5 KB)
+0907.856 (3) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 400 files added (on-disk size: 111624.5 KB)
+0907.858 (3) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 500 files added (on-disk size: 111624.5 KB)
+0907.860 (3) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 600 files added (on-disk size: 111624.5 KB)
+0907.870 (3) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 700 files added (on-disk size: 111624.5 KB)
+0907.872 (3) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 800 files added (on-disk size: 111624.5 KB)
+0907.877 (3) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: 900 files added (on-disk size: 111624.5 KB)
+0907.881 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 22.9 MB added on this batch (23.6 MB, 1488 files batched, 143 (143) added so far); re-opening (prior size: 111624.5 KB)
+1212.806 (4) Opened log file at time: Mon, 12 Feb 2018 07:37:03 +0000 on http://orchidmate.com
+1212.806 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.3 WP: 4.9.4 PHP: 5.6.32 (cgi-fcgi, Linux a2plcpnl0614.prod.iad2.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 45M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: N
+1213.101 (4) Free space on disk containing Updraft's temporary directory: 2040774.3 MB
+1213.104 (4) Backup run: resumption=4, nonce=3822995bc7ce, begun at=1518419810 (1213s ago), job type=backup
+1213.106 (4) Scheduling a resumption (5) after 300 seconds (1518421323) in case this run gets aborted
+1213.122 (4) Checking if we have a zip executable available
+1213.123 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1213.124 (4) Creation of backups of directories: had begun; will resume
+1213.126 (4) Beginning creation of dump of plugins (split every: 400 MB)
+1213.127 (4) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: this file has already been created (age: 1120 s)
+1213.135 (4) Beginning creation of dump of themes (split every: 400 MB)
+1213.136 (4) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: this file has already been created (age: 1115 s)
+1213.138 (4) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1213.139 (4) Looking for candidates to back up in: /home/o85108989/public_html/wp-content/uploads
+1213.140 (4) finding files: ithemes-security: adding to list (1)
+1213.141 (4) finding files: 2016: adding to list (2)
+1213.141 (4) finding files: wc-logs: adding to list (3)
+1213.142 (4) finding files: woocommerce_uploads: adding to list (4)
+1213.143 (4) finding files: 2018: adding to list (5)
+1213.143 (4) finding files: 2012: adding to list (6)
+1213.144 (4) finding files: 2015: adding to list (7)
+1213.145 (4) finding files: GeoIP.dat: adding to list (8)
+1213.146 (4) finding files: GeoIPv6.dat: adding to list (9)
+1213.146 (4) finding files: master-slider: adding to list (10)
+1213.147 (4) finding files: 2017: adding to list (11)
+1213.148 (4) Beginning creation of dump of uploads (split every: 400 MB)
+1213.149 (4) File exists (/home/o85108989/public_html/wp-content/updraft/backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1518420968, time_now=1518421023, diff=55)
+1213.386 (4) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip.tmp: Zip file already exists, with 939 files
+1213.392 (4) No check-in on last two runs; bumping index and reducing zip split to: 200 MB
+1259.126 (4) Created uploads zip (0) - 134308.5 KB in 0.1 s (1664004.8 KB/s) (checksums: sha1: 9b5ff919e45b3e4126ba5355931374002ffcb148, sha256: 8b646ba21169e6e0be52bd85cd045dc3d3445d18fb1ce9991e755bb10623e4bc)
+1259.184 (4) Total entities for the zip file: 32 directories, 1488 files (0 skipped as non-modified), 213.4 MB
+1259.187 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 100 files added (on-disk size: 0 KB)
+1259.189 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 200 files added (on-disk size: 0 KB)
+1259.190 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 300 files added (on-disk size: 0 KB)
+1259.192 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 400 files added (on-disk size: 0 KB)
+1259.193 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 500 files added (on-disk size: 0 KB)
+1259.195 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 600 files added (on-disk size: 0 KB)
+1259.197 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 700 files added (on-disk size: 0 KB)
+1259.198 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 800 files added (on-disk size: 0 KB)
+1259.200 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 900 files added (on-disk size: 0 KB)
+1259.202 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1000 files added (on-disk size: 0 KB)
+1259.207 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1100 files added (on-disk size: 0 KB)
+1259.208 (4) Adding batch to zip file (UpdraftPlus_BinZip): over 22.9 MB added on this batch (23.1 MB, 1488 files batched, 186 (186) added so far); re-opening (prior size: 0 KB)
+1285.914 (4) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: size is now: 23.10 MB
+1285.918 (4) A useful amount of data was added after this amount of zip processing: 27.2 s (normalised: 27 s, rate: 868.3 KB/s)
+1285.919 (4) Was going to raise maxzipbytes to 66150704, but this is too high: a previous failure led to the ceiling being set at 24028794, which we will use instead
+1285.921 (4) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=27.200395107269, normalised_time=27.025294352047, max_time=124, data points known=2, max_bytes=24028794)
+1285.927 (4) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1200 files added (on-disk size: 23665.5 KB)
+1285.932 (4) Adding batch to zip file (UpdraftPlus_BinZip): over 22.9 MB added on this batch (24.3 MB, 1488 files batched, 146 (332) added so far); re-opening (prior size: 23665.5 KB)
+1517.246 (5) Opened log file at time: Mon, 12 Feb 2018 07:42:07 +0000 on http://orchidmate.com
+1517.361 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.3 WP: 4.9.4 PHP: 5.6.32 (cgi-fcgi, Linux a2plcpnl0614.prod.iad2.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 45M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: N
+1517.745 (5) Free space on disk containing Updraft's temporary directory: 2040723.7 MB
+1517.748 (5) Backup run: resumption=5, nonce=3822995bc7ce, begun at=1518419810 (1518s ago), job type=backup, previous check-in=147s
+1517.750 (5) Scheduling a resumption (6) after 300 seconds (1518421628) in case this run gets aborted
+1517.900 (5) Checking if we have a zip executable available
+1517.902 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1517.926 (5) Creation of backups of directories: had begun; will resume
+1517.929 (5) Beginning creation of dump of plugins (split every: 200 MB)
+1517.930 (5) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: this file has already been created (age: 1425 s)
+1517.940 (5) Beginning creation of dump of themes (split every: 200 MB)
+1517.941 (5) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: this file has already been created (age: 1420 s)
+1517.944 (5) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1517.945 (5) Looking for candidates to back up in: /home/o85108989/public_html/wp-content/uploads
+1517.946 (5) finding files: ithemes-security: adding to list (1)
+1517.949 (5) finding files: 2016: adding to list (2)
+1517.950 (5) finding files: wc-logs: adding to list (3)
+1517.951 (5) finding files: woocommerce_uploads: adding to list (4)
+1517.952 (5) finding files: 2018: adding to list (5)
+1517.953 (5) finding files: 2012: adding to list (6)
+1517.954 (5) finding files: 2015: adding to list (7)
+1517.955 (5) finding files: GeoIP.dat: adding to list (8)
+1517.956 (5) finding files: GeoIPv6.dat: adding to list (9)
+1517.957 (5) finding files: master-slider: adding to list (10)
+1517.958 (5) finding files: 2017: adding to list (11)
+1517.959 (5) Beginning creation of dump of uploads (split every: 200 MB)
+1517.961 (5) File exists (/home/o85108989/public_html/wp-content/updraft/backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1518421180, time_now=1518421328, diff=148)
+1518.425 (5) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip: Zip file already exists, with 939 files
+1518.452 (5) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: Zip file already exists, with 1271 files
+1518.909 (5) Total entities for the zip file: 32 directories, 1488 files (0 skipped as non-modified), 213.4 MB
+1518.912 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 100 files added (on-disk size: 48633.6 KB)
+1518.914 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 200 files added (on-disk size: 48633.6 KB)
+1518.916 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 300 files added (on-disk size: 48633.6 KB)
+1518.917 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 400 files added (on-disk size: 48633.6 KB)
+1518.919 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 500 files added (on-disk size: 48633.6 KB)
+1518.921 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 600 files added (on-disk size: 48633.6 KB)
+1518.922 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 700 files added (on-disk size: 48633.6 KB)
+1518.924 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 800 files added (on-disk size: 48633.6 KB)
+1518.925 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 900 files added (on-disk size: 48633.6 KB)
+1518.927 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1000 files added (on-disk size: 48633.6 KB)
+1518.930 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1100 files added (on-disk size: 48633.6 KB)
+1518.932 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1200 files added (on-disk size: 48633.6 KB)
+1518.934 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1300 files added (on-disk size: 48633.6 KB)
+1518.939 (5) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1400 files added (on-disk size: 48633.6 KB)
+1518.942 (5) Adding batch to zip file (UpdraftPlus_BinZip): over 22.9 MB added on this batch (23.5 MB, 1488 files batched, 182 (182) added so far); re-opening (prior size: 48633.6 KB)
+1822.988 (6) Opened log file at time: Mon, 12 Feb 2018 07:47:13 +0000 on http://orchidmate.com
+1822.989 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.3 WP: 4.9.4 PHP: 5.6.32 (cgi-fcgi, Linux a2plcpnl0614.prod.iad2.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 45M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: N
+1823.150 (6) Free space on disk containing Updraft's temporary directory: 2040700 MB
+1823.153 (6) Backup run: resumption=6, nonce=3822995bc7ce, begun at=1518419810 (1823s ago), job type=backup, previous check-in=122.7s
+1823.155 (6) Scheduling a resumption (7) after 300 seconds (1518421933) in case this run gets aborted
+1823.190 (6) Checking if we have a zip executable available
+1823.191 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+1823.192 (6) Creation of backups of directories: had begun; will resume
+1823.194 (6) Beginning creation of dump of plugins (split every: 200 MB)
+1823.195 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: this file has already been created (age: 1730 s)
+1823.198 (6) Beginning creation of dump of themes (split every: 200 MB)
+1823.198 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: this file has already been created (age: 1725 s)
+1823.201 (6) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1823.202 (6) Looking for candidates to back up in: /home/o85108989/public_html/wp-content/uploads
+1823.208 (6) finding files: ithemes-security: adding to list (1)
+1823.209 (6) finding files: 2016: adding to list (2)
+1823.210 (6) finding files: wc-logs: adding to list (3)
+1823.210 (6) finding files: woocommerce_uploads: adding to list (4)
+1823.211 (6) finding files: 2018: adding to list (5)
+1823.212 (6) finding files: 2012: adding to list (6)
+1823.213 (6) finding files: 2015: adding to list (7)
+1823.213 (6) finding files: GeoIP.dat: adding to list (8)
+1823.214 (6) finding files: GeoIPv6.dat: adding to list (9)
+1823.215 (6) finding files: master-slider: adding to list (10)
+1823.216 (6) finding files: 2017: adding to list (11)
+1823.216 (6) Beginning creation of dump of uploads (split every: 200 MB)
+1823.217 (6) File exists (/home/o85108989/public_html/wp-content/updraft/backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1518421465, time_now=1518421633, diff=168)
+1823.509 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip: Zip file already exists, with 939 files
+1823.528 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: Zip file already exists, with 1453 files
+1823.766 (6) Total entities for the zip file: 32 directories, 1488 files (0 skipped as non-modified), 213.4 MB
+1823.769 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 100 files added (on-disk size: 72751.1 KB)
+1823.770 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 200 files added (on-disk size: 72751.1 KB)
+1823.772 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 300 files added (on-disk size: 72751.1 KB)
+1823.773 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 400 files added (on-disk size: 72751.1 KB)
+1823.775 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 500 files added (on-disk size: 72751.1 KB)
+1823.776 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 600 files added (on-disk size: 72751.1 KB)
+1823.778 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 700 files added (on-disk size: 72751.1 KB)
+1823.779 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 800 files added (on-disk size: 72751.1 KB)
+1823.781 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 900 files added (on-disk size: 72751.1 KB)
+1823.782 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1000 files added (on-disk size: 72751.1 KB)
+1823.785 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1100 files added (on-disk size: 72751.1 KB)
+1823.786 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1200 files added (on-disk size: 72751.1 KB)
+1823.788 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1300 files added (on-disk size: 72751.1 KB)
+1823.789 (6) Zip: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip.tmp: 1400 files added (on-disk size: 72751.1 KB)
+1930.343 (6) Created uploads zip (1) - 78960.7 KB in 107 s (738.2 KB/s) (sha1: 53a4831c055aee0dd40035d66a169a9272d885a4, sha256: 5799910ffcec04fa1553567685ebdd4a8e46a1cd212d1adc3e514783ef93887b)
+1930.346 (6) Beginning backup of other directories found in the content directory (index: 0)
+1930.347 (6) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+1930.347 (6) Looking for candidates to back up in: /home/o85108989/public_html/wp-content
+1930.357 (6) finding files: plugins: skipping: this is the plugins directory
+1930.358 (6) finding files: upgrade: skipping: excluded by options
+1930.359 (6) finding files: themes: skipping: this is the themes directory
+1930.360 (6) finding files: updraft: skipping: this is the updraft directory
+1930.360 (6) finding files: uploads: skipping: this is the uploads directory
+1930.361 (6) finding files: index.php: adding to list (1)
+1930.537 (6) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+1930.553 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-others.zip.tmp: size is now: 0.00 MB
+1930.559 (6) Created others zip (0) - 0.2 KB in 0 s (5.3 KB/s) (sha1: 2cf39fb8f8ce6331e75fe0cfa7092ad960b27246, sha256: ea9cc83276e0aba844164f17018cc5d53b36e10ec1c592717af64bffc9f3cb2c)
+1930.564 (6) Saving backup status to database (elements: 9)
+1930.594 (6) Resuming creation of database dump (WordPress DB)
+1930.599 (6) Testing: /usr/bin/mysqldump
+1930.787 (6) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1184 bytes total)
+1930.877 (6) Working binary mysqldump found: /usr/bin/mysqldump
+1930.891 (6) Table wp_options: Total expected rows (approximate): 1107
+1930.974 (6) Table wp_options: Total rows added: 1152 in 0.08 seconds
+1930.975 (6) Table wp_options: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_options.table.gz - 268.3 KB)
+1930.979 (6) Table wp_users: Total expected rows (approximate): 52
+1930.987 (6) Table wp_users: Total rows added: 113 in 0.01 seconds
+1930.987 (6) Table wp_users: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_users.table.gz - 7.3 KB)
+1930.991 (6) Table wp_usermeta: Total expected rows (approximate): 1786
+1931.062 (6) Table wp_usermeta: Total rows added: 3648 in 0.07 seconds
+1931.063 (6) Table wp_usermeta: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_usermeta.table.gz - 47.7 KB)
+1931.067 (6) Table wp_commentmeta: Total expected rows (approximate): 50
+1931.070 (6) Table wp_commentmeta: Total rows added: 50 in 0.00 seconds
+1931.071 (6) Table wp_commentmeta: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_commentmeta.table.gz - 0.6 KB)
+1931.075 (6) Table wp_comments: Total expected rows (approximate): 399
+1931.121 (6) Table wp_comments: Total rows added: 806 in 0.05 seconds
+1931.122 (6) Table wp_comments: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_comments.table.gz - 11.8 KB)
+1931.127 (6) Table wp_links: Total expected rows (approximate): 0
+1931.129 (6) Table wp_links: Total rows added: 0 in 0.00 seconds
+1931.130 (6) Table wp_links: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_links.table.gz - 0.4 KB)
+1931.133 (6) Table wp_postmeta: Total expected rows (approximate): 7290
+1931.537 (6) Table wp_postmeta: Total rows added: 15942 in 0.40 seconds
+1931.538 (6) Table wp_postmeta: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_postmeta.table.gz - 166.8 KB)
+1931.543 (6) Table wp_posts: Total expected rows (approximate): 451
+1931.629 (6) Table wp_posts: Total rows added: 774 in 0.09 seconds
+1931.631 (6) Table wp_posts: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_posts.table.gz - 70.3 KB)
+1931.636 (6) Table wp_term_relationships: Total expected rows (approximate): 65
+1931.639 (6) Table wp_term_relationships: Total rows added: 70 in 0.00 seconds
+1931.640 (6) Table wp_term_relationships: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_term_relationships.table.gz - 0.6 KB)
+1931.644 (6) Table wp_term_taxonomy: Total expected rows (approximate): 26
+1931.647 (6) Table wp_term_taxonomy: Total rows added: 27 in 0.00 seconds
+1931.648 (6) Table wp_term_taxonomy: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_term_taxonomy.table.gz - 0.7 KB)
+1931.652 (6) Table wp_termmeta: Total expected rows (approximate): 11
+1931.654 (6) Table wp_termmeta: Total rows added: 11 in 0.00 seconds
+1931.655 (6) Table wp_termmeta: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_termmeta.table.gz - 0.5 KB)
+1931.659 (6) Table wp_terms: Total expected rows (approximate): 26
+1931.661 (6) Table wp_terms: Total rows added: 27 in 0.00 seconds
+1931.662 (6) Table wp_terms: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_terms.table.gz - 0.7 KB)
+1931.666 (6) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 5755
+1932.045 (6) Table wp_woocommerce_order_itemmeta: Total rows added: 11759 in 0.38 seconds
+1932.047 (6) Table wp_woocommerce_order_itemmeta: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_order_itemmeta.table.gz - 76.6 KB)
+1932.052 (6) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+1932.054 (6) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+1932.055 (6) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+1932.060 (6) Table wp_masterslider_options: Total expected rows (approximate): 4
+1932.062 (6) Table wp_masterslider_options: Total rows added: 5 in 0.00 seconds
+1932.063 (6) Table wp_masterslider_options: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_masterslider_options.table.gz - 0.5 KB)
+1932.067 (6) Table wp_masterslider_sliders: Total expected rows (approximate): 6
+1932.071 (6) Table wp_masterslider_sliders: Total rows added: 6 in 0.00 seconds
+1932.072 (6) Table wp_masterslider_sliders: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_masterslider_sliders.table.gz - 8.7 KB)
+1932.077 (6) Table wp_ultimatetables: Total expected rows (approximate): 0
+1932.080 (6) Table wp_ultimatetables: Total rows added: 1 in 0.00 seconds
+1932.081 (6) Table wp_ultimatetables: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_ultimatetables.table.gz - 0.8 KB)
+1932.086 (6) Table wp_wc_crm_groups: Total expected rows (approximate): 0
+1932.089 (6) Table wp_wc_crm_groups: Total rows added: 0 in 0.00 seconds
+1932.091 (6) Table wp_wc_crm_groups: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_crm_groups.table.gz - 0.4 KB)
+1932.096 (6) Table wp_wc_crm_groups_relationships: Total expected rows (approximate): 0
+1932.098 (6) Table wp_wc_crm_groups_relationships: Total rows added: 0 in 0.00 seconds
+1932.099 (6) Table wp_wc_crm_groups_relationships: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_crm_groups_relationships.table.gz - 0.3 KB)
+1932.104 (6) Table wp_wc_crm_log: Total expected rows (approximate): 0
+1932.106 (6) Table wp_wc_crm_log: Total rows added: 0 in 0.00 seconds
+1932.107 (6) Table wp_wc_crm_log: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_crm_log.table.gz - 0.4 KB)
+1932.111 (6) Table wp_wc_crm_statuses: Total expected rows (approximate): 0
+1932.113 (6) Table wp_wc_crm_statuses: Total rows added: 0 in 0.00 seconds
+1932.114 (6) Table wp_wc_crm_statuses: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_crm_statuses.table.gz - 0.3 KB)
+1932.119 (6) Table wp_wc_download_log: Total expected rows (approximate): 0
+1932.122 (6) Table wp_wc_download_log: Total rows added: 0 in 0.00 seconds
+1932.123 (6) Table wp_wc_download_log: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+1932.127 (6) Table wp_wc_webhooks: Total expected rows (approximate): 0
+1932.129 (6) Table wp_wc_webhooks: Total rows added: 0 in 0.00 seconds
+1932.130 (6) Table wp_wc_webhooks: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+1932.135 (6) Table wp_wonderplugin_slider: Total expected rows (approximate): 0
+1932.138 (6) Table wp_wonderplugin_slider: Total rows added: 1 in 0.00 seconds
+1932.139 (6) Table wp_wonderplugin_slider: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wonderplugin_slider.table.gz - 1.4 KB)
+1932.143 (6) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+1932.146 (6) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+1932.147 (6) Table wp_woocommerce_api_keys: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+1932.151 (6) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+1932.154 (6) Table wp_woocommerce_attribute_taxonomies: Total rows added: 1 in 0.00 seconds
+1932.155 (6) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+1932.159 (6) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+1932.162 (6) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+1932.163 (6) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+1932.168 (6) Table wp_woocommerce_log: Total expected rows (approximate): 0
+1932.170 (6) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+1932.171 (6) Table wp_woocommerce_log: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+1932.175 (6) Table wp_woocommerce_order_items: Total expected rows (approximate): 697
+1932.203 (6) Table wp_woocommerce_order_items: Total rows added: 1393 in 0.03 seconds
+1932.204 (6) Table wp_woocommerce_order_items: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_order_items.table.gz - 6.9 KB)
+1932.209 (6) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+1932.211 (6) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+1932.212 (6) Table wp_woocommerce_payment_tokens: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+1932.217 (6) Table wp_woocommerce_per_product_shipping_rules: Total expected rows (approximate): 0
+1932.219 (6) Table wp_woocommerce_per_product_shipping_rules: Total rows added: 1 in 0.00 seconds
+1932.220 (6) Table wp_woocommerce_per_product_shipping_rules: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_per_product_shipping_rules.table.gz - 0.4 KB)
+1932.229 (6) Table wp_woocommerce_sessions: Total expected rows (approximate): 8
+1932.232 (6) Table wp_woocommerce_sessions: Total rows added: 8 in 0.00 seconds
+1932.233 (6) Table wp_woocommerce_sessions: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_sessions.table.gz - 2.9 KB)
+1932.238 (6) Table wp_woocommerce_shipping_table_rates: Total expected rows (approximate): 0
+1932.240 (6) Table wp_woocommerce_shipping_table_rates: Total rows added: 1 in 0.00 seconds
+1932.241 (6) Table wp_woocommerce_shipping_table_rates: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_shipping_table_rates.table.gz - 0.5 KB)
+1932.245 (6) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+1932.247 (6) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+1932.248 (6) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+1932.252 (6) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 2
+1932.255 (6) Table wp_woocommerce_shipping_zone_methods: Total rows added: 2 in 0.00 seconds
+1932.255 (6) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+1932.261 (6) Table wp_woocommerce_shipping_zone_shipping_methods: Total expected rows (approximate): 0
+1932.383 (6) Table wp_woocommerce_shipping_zone_shipping_methods: Total rows added: 1 in 0.00 seconds
+1932.385 (6) Table wp_woocommerce_shipping_zone_shipping_methods: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_shipping_zone_shipping_methods.table.gz - 0.4 KB)
+1932.391 (6) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+1932.393 (6) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+1932.395 (6) Table wp_woocommerce_shipping_zones: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_shipping_zones.table.gz - 0.4 KB)
+1932.399 (6) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+1932.401 (6) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+1932.402 (6) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+1932.407 (6) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+1932.409 (6) Table wp_woocommerce_tax_rates: Total rows added: 1 in 0.00 seconds
+1932.410 (6) Table wp_woocommerce_tax_rates: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_tax_rates.table.gz - 0.5 KB)
+1932.415 (6) Table wp_woocommerce_termmeta: Total expected rows (approximate): 0
+1932.416 (6) Table wp_woocommerce_termmeta: Total rows added: 0 in 0.00 seconds
+1932.419 (6) Table wp_woocommerce_termmeta: finishing file (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_termmeta.table.gz - 0.4 KB)
+1932.423 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_options.table.gz (1/40): adding to final database dump
+1932.485 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_users.table.gz (2/40): adding to final database dump
+1932.489 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_usermeta.table.gz (3/40): adding to final database dump
+1932.521 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_commentmeta.table.gz (4/40): adding to final database dump
+1932.523 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_comments.table.gz (5/40): adding to final database dump
+1932.534 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_links.table.gz (6/40): adding to final database dump
+1932.535 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_postmeta.table.gz (7/40): adding to final database dump
+1932.729 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_posts.table.gz (8/40): adding to final database dump
+1932.772 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_term_relationships.table.gz (9/40): adding to final database dump
+1932.784 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_term_taxonomy.table.gz (10/40): adding to final database dump
+1932.786 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_termmeta.table.gz (11/40): adding to final database dump
+1932.794 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_terms.table.gz (12/40): adding to final database dump
+1932.795 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_order_itemmeta.table.gz (13/40): adding to final database dump
+1932.970 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/40): adding to final database dump
+1932.982 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_masterslider_options.table.gz (15/40): adding to final database dump
+1932.990 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_masterslider_sliders.table.gz (16/40): adding to final database dump
+1932.993 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_ultimatetables.table.gz (17/40): adding to final database dump
+1932.994 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_crm_groups.table.gz (18/40): adding to final database dump
+1932.995 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_crm_groups_relationships.table.gz (19/40): adding to final database dump
+1932.996 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_crm_log.table.gz (20/40): adding to final database dump
+1932.997 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_crm_statuses.table.gz (21/40): adding to final database dump
+1932.999 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_download_log.table.gz (22/40): adding to final database dump
+1933.000 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wc_webhooks.table.gz (23/40): adding to final database dump
+1933.007 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_wonderplugin_slider.table.gz (24/40): adding to final database dump
+1933.008 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_api_keys.table.gz (25/40): adding to final database dump
+1933.009 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_attribute_taxonomies.table.gz (26/40): adding to final database dump
+1933.010 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (27/40): adding to final database dump
+1933.011 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_log.table.gz (28/40): adding to final database dump
+1933.012 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_order_items.table.gz (29/40): adding to final database dump
+1933.022 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_payment_tokens.table.gz (30/40): adding to final database dump
+1933.034 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_per_product_shipping_rules.table.gz (31/40): adding to final database dump
+1933.035 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_sessions.table.gz (32/40): adding to final database dump
+1933.036 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_shipping_table_rates.table.gz (33/40): adding to final database dump
+1933.037 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_shipping_zone_locations.table.gz (34/40): adding to final database dump
+1933.038 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_shipping_zone_methods.table.gz (35/40): adding to final database dump
+1933.040 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_shipping_zone_shipping_methods.table.gz (36/40): adding to final database dump
+1933.047 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_shipping_zones.table.gz (37/40): adding to final database dump
+1933.048 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_tax_rate_locations.table.gz (38/40): adding to final database dump
+1933.049 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_tax_rates.table.gz (39/40): adding to final database dump
+1933.050 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db-table-wp_woocommerce_termmeta.table.gz (40/40): adding to final database dump
+1933.051 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db.gz: finished writing out complete database file (656 KB)
+1933.081 (6) Total database tables backed up: 40 (backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db.gz, size: 691524, sha256)
+1933.088 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1933.089 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1933.089 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1933.090 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+1933.091 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-others.zip: others: This file has not yet been successfully uploaded: will queue
+1933.092 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db.gz: db: This file has not yet been successfully uploaded: will queue
+1933.093 (6) Saving backup history. Total backup size: 237.5 MB
+1933.095 (6) Requesting upload of the files that have not yet been successfully uploaded (6)
+1933.105 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1933.106 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6adb91083f9c3f5e04f15f880cb44098)
+1934.140 (6) Google Drive: creating path: /UpdraftPlus
+1935.065 (6) Google Drive quota usage: used=0.1 MB, total=30720 MB, available=30719.9 MB
+1935.066 (6) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: Attempting to upload to Google Drive (into folder id: 1PvZbSmuLHNwwZnKh4AwBcbZWVlKG5sIT)
+1936.484 (6) Googledrive chunked upload: 3.8 % uploaded (1048576)
+1937.403 (6) Googledrive chunked upload: 7.7 % uploaded (2097152)
+1938.400 (6) Googledrive chunked upload: 11.5 % uploaded (3145728)
+1939.412 (6) Googledrive chunked upload: 15.4 % uploaded (4194304)
+1940.382 (6) Googledrive chunked upload: 19.2 % uploaded (5242880)
+1941.398 (6) Googledrive chunked upload: 23 % uploaded (6291456)
+1942.400 (6) Googledrive chunked upload: 26.9 % uploaded (7340032)
+1943.422 (6) Googledrive chunked upload: 30.7 % uploaded (8388608)
+2128.476 (7) Opened log file at time: Mon, 12 Feb 2018 07:52:18 +0000 on http://orchidmate.com
+2128.478 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.3 WP: 4.9.4 PHP: 5.6.32 (cgi-fcgi, Linux a2plcpnl0614.prod.iad2.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 45.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: N
+2128.650 (7) Free space on disk containing Updraft's temporary directory: 2040692.6 MB
+2128.653 (7) Backup run: resumption=7, nonce=3822995bc7ce, begun at=1518419810 (2128s ago), job type=backup, previous check-in=121.4s
+2128.655 (7) Scheduling a resumption (8) after 300 seconds (1518422238) in case this run gets aborted
+2128.666 (7) Checking if we have a zip executable available
+2128.667 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+2128.668 (7) Creation of backups of directories: already finished
+2128.669 (7) Saving backup status to database (elements: 9)
+2128.675 (7) Database dump (WordPress DB): Creation was completed already
+2128.680 (7) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2128.680 (7) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2128.681 (7) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2128.682 (7) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+2128.683 (7) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-others.zip: others: This file has not yet been successfully uploaded: will queue
+2128.684 (7) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db.gz: db: This file has not yet been successfully uploaded: will queue
+2128.684 (7) Saving backup history. Total backup size: 237.5 MB
+2128.687 (7) Requesting upload of the files that have not yet been successfully uploaded (6)
+2128.688 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2128.689 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6adb91083f9c3f5e04f15f880cb44098)
+2129.213 (7) Google Drive quota usage: used=0.1 MB, total=30720 MB, available=30719.9 MB
+2129.215 (7) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: Attempting to upload to Google Drive (into folder id: 1PvZbSmuLHNwwZnKh4AwBcbZWVlKG5sIT)
+2129.262 (7) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: upload already began; attempting to resume from byte 9437183
+2130.425 (7) Googledrive chunked upload: 38.4 % uploaded (10485760)
+2131.456 (7) Googledrive chunked upload: 42.2 % uploaded (11534336)
+2132.494 (7) Googledrive chunked upload: 46.1 % uploaded (12582912)
+2133.515 (7) Googledrive chunked upload: 49.9 % uploaded (13631488)
+2134.562 (7) Googledrive chunked upload: 53.7 % uploaded (14680064)
+2135.587 (7) Googledrive chunked upload: 57.6 % uploaded (15728640)
+2136.641 (7) Googledrive chunked upload: 61.4 % uploaded (16777216)
+2137.656 (7) Googledrive chunked upload: 65.2 % uploaded (17825792)
+2138.687 (7) Googledrive chunked upload: 69.1 % uploaded (18874368)
+2139.736 (7) Googledrive chunked upload: 72.9 % uploaded (19922944)
+2140.759 (7) Googledrive chunked upload: 76.8 % uploaded (20971520)
+2141.801 (7) Googledrive chunked upload: 80.6 % uploaded (22020096)
+2142.854 (7) Googledrive chunked upload: 84.4 % uploaded (23068672)
+2143.875 (7) Googledrive chunked upload: 88.3 % uploaded (24117248)
+2144.912 (7) Googledrive chunked upload: 92.1 % uploaded (25165824)
+2145.950 (7) Googledrive chunked upload: 95.9 % uploaded (26214400)
+2146.918 (7) Googledrive chunked upload: 99.8 % uploaded (27262976)
+2147.536 (7) Googledrive chunked upload: 100 % uploaded (27262976)
+2147.540 (7) OK: Archive backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip uploaded to Google Drive in 18.32 seconds
+2147.543 (7) Recording as successfully uploaded: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip (f3e2dbe0be9dad60baf9bcb7b88b2107)
+2147.551 (7) Deleting local file: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: OK
+2147.712 (7) Google Drive quota usage: used=26.2 MB, total=30720 MB, available=30693.8 MB
+2147.714 (7) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: Attempting to upload to Google Drive (into folder id: 1PvZbSmuLHNwwZnKh4AwBcbZWVlKG5sIT)
+2149.084 (7) Googledrive chunked upload: 40.3 % uploaded (1048576)
+2149.990 (7) Googledrive chunked upload: 80.7 % uploaded (2097152)
+2150.720 (7) Googledrive chunked upload: 100 % uploaded (2097152)
+2150.724 (7) OK: Archive backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip uploaded to Google Drive in 3.01 seconds
+2150.726 (7) Recording as successfully uploaded: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip (763b98df515aecae09369582e1815999)
+2150.729 (7) Deleting local file: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: OK
+2150.886 (7) Google Drive quota usage: used=28.6 MB, total=30720 MB, available=30691.4 MB
+2150.887 (7) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip: Attempting to upload to Google Drive (into folder id: 1PvZbSmuLHNwwZnKh4AwBcbZWVlKG5sIT)
+2152.309 (7) Googledrive chunked upload: 0.8 % uploaded (1048576)
+2153.211 (7) Googledrive chunked upload: 1.5 % uploaded (2097152)
+2154.212 (7) Googledrive chunked upload: 2.3 % uploaded (3145728)
+2155.211 (7) Googledrive chunked upload: 3 % uploaded (4194304)
+2156.204 (7) Googledrive chunked upload: 3.8 % uploaded (5242880)
+2157.227 (7) Googledrive chunked upload: 4.6 % uploaded (6291456)
+2158.221 (7) Googledrive chunked upload: 5.3 % uploaded (7340032)
+2159.234 (7) Googledrive chunked upload: 6.1 % uploaded (8388608)
+2160.117 (7) Googledrive chunked upload: 6.9 % uploaded (9437184)
+2161.362 (7) Googledrive chunked upload: 7.6 % uploaded (10485760)
+2162.369 (7) Googledrive chunked upload: 8.4 % uploaded (11534336)
+2163.369 (7) Googledrive chunked upload: 9.1 % uploaded (12582912)
+2164.370 (7) Googledrive chunked upload: 9.9 % uploaded (13631488)
+2165.382 (7) Googledrive chunked upload: 10.7 % uploaded (14680064)
+2166.372 (7) Googledrive chunked upload: 11.4 % uploaded (15728640)
+2167.376 (7) Googledrive chunked upload: 12.2 % uploaded (16777216)
+2168.397 (7) Googledrive chunked upload: 13 % uploaded (17825792)
+2169.402 (7) Googledrive chunked upload: 13.7 % uploaded (18874368)
+2170.379 (7) Googledrive chunked upload: 14.5 % uploaded (19922944)
+2171.368 (7) Googledrive chunked upload: 15.2 % uploaded (20971520)
+2172.383 (7) Googledrive chunked upload: 16 % uploaded (22020096)
+2173.387 (7) Googledrive chunked upload: 16.8 % uploaded (23068672)
+2174.352 (7) Googledrive chunked upload: 17.5 % uploaded (24117248)
+2175.371 (7) Googledrive chunked upload: 18.3 % uploaded (25165824)
+2176.359 (7) Googledrive chunked upload: 19.1 % uploaded (26214400)
+2177.368 (7) Googledrive chunked upload: 19.8 % uploaded (27262976)
+2178.379 (7) Googledrive chunked upload: 20.6 % uploaded (28311552)
+2179.365 (7) Googledrive chunked upload: 21.3 % uploaded (29360128)
+2180.360 (7) Googledrive chunked upload: 22.1 % uploaded (30408704)
+2181.371 (7) Googledrive chunked upload: 22.9 % uploaded (31457280)
+2182.374 (7) Googledrive chunked upload: 23.6 % uploaded (32505856)
+2183.385 (7) Googledrive chunked upload: 24.4 % uploaded (33554432)
+2184.382 (7) Googledrive chunked upload: 25.2 % uploaded (34603008)
+2185.360 (7) Googledrive chunked upload: 25.9 % uploaded (35651584)
+2186.393 (7) Googledrive chunked upload: 26.7 % uploaded (36700160)
+2187.351 (7) Googledrive chunked upload: 27.4 % uploaded (37748736)
+2188.382 (7) Googledrive chunked upload: 28.2 % uploaded (38797312)
+2189.370 (7) Googledrive chunked upload: 29 % uploaded (39845888)
+2190.506 (7) Googledrive chunked upload: 29.7 % uploaded (40894464)
+2191.523 (7) Googledrive chunked upload: 30.5 % uploaded (41943040)
+2192.504 (7) Googledrive chunked upload: 31.3 % uploaded (42991616)
+2193.503 (7) Googledrive chunked upload: 32 % uploaded (44040192)
+2194.506 (7) Googledrive chunked upload: 32.8 % uploaded (45088768)
+2195.528 (7) Googledrive chunked upload: 33.5 % uploaded (46137344)
+2196.503 (7) Googledrive chunked upload: 34.3 % uploaded (47185920)
+2197.504 (7) Googledrive chunked upload: 35.1 % uploaded (48234496)
+2198.492 (7) Googledrive chunked upload: 35.8 % uploaded (49283072)
+2199.492 (7) Googledrive chunked upload: 36.6 % uploaded (50331648)
+2200.513 (7) Googledrive chunked upload: 37.4 % uploaded (51380224)
+2201.502 (7) Googledrive chunked upload: 38.1 % uploaded (52428800)
+2202.508 (7) Googledrive chunked upload: 38.9 % uploaded (53477376)
+2203.646 (7) Googledrive chunked upload: 39.6 % uploaded (54525952)
+2204.568 (7) Googledrive chunked upload: 40.4 % uploaded (55574528)
+2205.573 (7) Googledrive chunked upload: 41.2 % uploaded (56623104)
+2206.568 (7) Googledrive chunked upload: 41.9 % uploaded (57671680)
+2207.554 (7) Googledrive chunked upload: 42.7 % uploaded (58720256)
+2208.554 (7) Googledrive chunked upload: 43.5 % uploaded (59768832)
+2209.558 (7) Googledrive chunked upload: 44.2 % uploaded (60817408)
+2210.644 (7) Googledrive chunked upload: 45 % uploaded (61865984)
+2211.554 (7) Googledrive chunked upload: 45.7 % uploaded (62914560)
+2212.555 (7) Googledrive chunked upload: 46.5 % uploaded (63963136)
+2213.556 (7) Googledrive chunked upload: 47.3 % uploaded (65011712)
+2214.578 (7) Googledrive chunked upload: 48 % uploaded (66060288)
+2215.550 (7) Googledrive chunked upload: 48.8 % uploaded (67108864)
+2216.581 (7) Googledrive chunked upload: 49.6 % uploaded (68157440)
+2217.570 (7) Googledrive chunked upload: 50.3 % uploaded (69206016)
+2218.593 (7) Googledrive chunked upload: 51.1 % uploaded (70254592)
+2219.553 (7) Googledrive chunked upload: 51.8 % uploaded (71303168)
+2220.569 (7) Googledrive chunked upload: 52.6 % uploaded (72351744)
+2221.570 (7) Googledrive chunked upload: 53.4 % uploaded (73400320)
+2222.580 (7) Googledrive chunked upload: 54.1 % uploaded (74448896)
+2223.585 (7) Googledrive chunked upload: 54.9 % uploaded (75497472)
+2224.585 (7) Googledrive chunked upload: 55.7 % uploaded (76546048)
+2225.573 (7) Googledrive chunked upload: 56.4 % uploaded (77594624)
+2226.575 (7) Googledrive chunked upload: 57.2 % uploaded (78643200)
+2227.555 (7) Googledrive chunked upload: 57.9 % uploaded (79691776)
+2228.548 (7) Googledrive chunked upload: 58.7 % uploaded (80740352)
+2229.582 (7) Googledrive chunked upload: 59.5 % uploaded (81788928)
+2230.579 (7) Googledrive chunked upload: 60.2 % uploaded (82837504)
+2231.567 (7) Googledrive chunked upload: 61 % uploaded (83886080)
+2232.557 (7) Googledrive chunked upload: 61.8 % uploaded (84934656)
+2233.562 (7) Googledrive chunked upload: 62.5 % uploaded (85983232)
+2234.573 (7) Googledrive chunked upload: 63.3 % uploaded (87031808)
+2235.569 (7) Googledrive chunked upload: 64 % uploaded (88080384)
+2236.585 (7) Googledrive chunked upload: 64.8 % uploaded (89128960)
+2237.576 (7) Googledrive chunked upload: 65.6 % uploaded (90177536)
+2238.570 (7) Googledrive chunked upload: 66.3 % uploaded (91226112)
+2239.593 (7) Googledrive chunked upload: 67.1 % uploaded (92274688)
+2240.569 (7) Googledrive chunked upload: 67.9 % uploaded (93323264)
+2241.582 (7) Googledrive chunked upload: 68.6 % uploaded (94371840)
+2242.556 (7) Googledrive chunked upload: 69.4 % uploaded (95420416)
+2243.573 (7) Googledrive chunked upload: 70.1 % uploaded (96468992)
+2244.606 (7) Googledrive chunked upload: 70.9 % uploaded (97517568)
+2245.570 (7) Googledrive chunked upload: 71.7 % uploaded (98566144)
+2246.562 (7) Googledrive chunked upload: 72.4 % uploaded (99614720)
+2247.589 (7) Googledrive chunked upload: 73.2 % uploaded (100663296)
+2248.575 (7) Googledrive chunked upload: 74 % uploaded (101711872)
+2249.575 (7) Googledrive chunked upload: 74.7 % uploaded (102760448)
+2250.554 (7) Googledrive chunked upload: 75.5 % uploaded (103809024)
+2251.564 (7) Googledrive chunked upload: 76.2 % uploaded (104857600)
+2252.579 (7) Googledrive chunked upload: 77 % uploaded (105906176)
+2253.561 (7) Googledrive chunked upload: 77.8 % uploaded (106954752)
+2254.567 (7) Googledrive chunked upload: 78.5 % uploaded (108003328)
+2255.583 (7) Googledrive chunked upload: 79.3 % uploaded (109051904)
+2431.631 (8) Opened log file at time: Mon, 12 Feb 2018 07:57:21 +0000 on http://orchidmate.com
+2431.749 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.3 WP: 4.9.4 PHP: 5.6.32 (cgi-fcgi, Linux a2plcpnl0614.prod.iad2.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44.3M | 45.5M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: N
+2432.014 (8) Free space on disk containing Updraft's temporary directory: 2040719.5 MB
+2432.017 (8) Backup run: resumption=8, nonce=3822995bc7ce, begun at=1518419810 (2432s ago), job type=backup, previous check-in=127.1s
+2432.019 (8) Time passed on previous resumptions: 0:124 1:121.2 2:? 3:? 4:147 5:122.7 6:121.4 7:127.1  (known: 6, max: 147)
+2432.020 (8) Based on the available data, we are bringing the resumption interval down to: 199 seconds
+2432.022 (8) Scheduling a resumption (9) after 199 seconds (1518422441) in case this run gets aborted
+2432.033 (8) Checking if we have a zip executable available
+2432.034 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+2432.035 (8) Creation of backups of directories: already finished
+2432.035 (8) Saving backup status to database (elements: 9)
+2432.041 (8) Database dump (WordPress DB): Creation was completed already
+2432.046 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-plugins.zip: plugins: This file has already been successfully uploaded
+2432.047 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-themes.zip: themes: This file has already been successfully uploaded
+2432.048 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2432.048 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+2432.049 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-others.zip: others: This file has not yet been successfully uploaded: will queue
+2432.050 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db.gz: db: This file has not yet been successfully uploaded: will queue
+2432.051 (8) Saving backup history. Total backup size: 237.5 MB
+2432.054 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+2432.055 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2432.056 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6adb91083f9c3f5e04f15f880cb44098)
+2432.608 (8) Google Drive quota usage: used=28.6 MB, total=30720 MB, available=30691.4 MB
+2432.610 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip: Attempting to upload to Google Drive (into folder id: 1PvZbSmuLHNwwZnKh4AwBcbZWVlKG5sIT)
+2432.662 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip: upload already began; attempting to resume from byte 109051903
+2433.938 (8) Googledrive chunked upload: 80.1 % uploaded (110100480)
+2434.931 (8) Googledrive chunked upload: 80.8 % uploaded (111149056)
+2435.938 (8) Googledrive chunked upload: 81.6 % uploaded (112197632)
+2436.942 (8) Googledrive chunked upload: 82.3 % uploaded (113246208)
+2437.939 (8) Googledrive chunked upload: 83.1 % uploaded (114294784)
+2438.937 (8) Googledrive chunked upload: 83.9 % uploaded (115343360)
+2439.929 (8) Googledrive chunked upload: 84.6 % uploaded (116391936)
+2440.953 (8) Googledrive chunked upload: 85.4 % uploaded (117440512)
+2441.945 (8) Googledrive chunked upload: 86.2 % uploaded (118489088)
+2442.930 (8) Googledrive chunked upload: 86.9 % uploaded (119537664)
+2444.169 (8) Googledrive chunked upload: 87.7 % uploaded (120586240)
+2445.085 (8) Googledrive chunked upload: 88.4 % uploaded (121634816)
+2446.105 (8) Googledrive chunked upload: 89.2 % uploaded (122683392)
+2447.095 (8) Googledrive chunked upload: 90 % uploaded (123731968)
+2448.071 (8) Googledrive chunked upload: 90.7 % uploaded (124780544)
+2449.079 (8) Googledrive chunked upload: 91.5 % uploaded (125829120)
+2450.079 (8) Googledrive chunked upload: 92.3 % uploaded (126877696)
+2451.070 (8) Googledrive chunked upload: 93 % uploaded (127926272)
+2452.078 (8) Googledrive chunked upload: 93.8 % uploaded (128974848)
+2453.080 (8) Googledrive chunked upload: 94.5 % uploaded (130023424)
+2454.098 (8) Googledrive chunked upload: 95.3 % uploaded (131072000)
+2455.081 (8) Googledrive chunked upload: 96.1 % uploaded (132120576)
+2456.086 (8) Googledrive chunked upload: 96.8 % uploaded (133169152)
+2457.069 (8) Googledrive chunked upload: 97.6 % uploaded (134217728)
+2458.077 (8) Googledrive chunked upload: 98.4 % uploaded (135266304)
+2459.084 (8) Googledrive chunked upload: 99.1 % uploaded (136314880)
+2460.030 (8) Googledrive chunked upload: 99.9 % uploaded (137363456)
+2460.670 (8) Googledrive chunked upload: 100 % uploaded (137363456)
+2460.676 (8) OK: Archive backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip uploaded to Google Drive in 28.07 seconds
+2460.679 (8) Recording as successfully uploaded: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip (52383b6e9f91c4c6aa9d01be59e61433)
+2460.727 (8) Deleting local file: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads.zip: OK
+2460.980 (8) Google Drive quota usage: used=159.8 MB, total=30720 MB, available=30560.2 MB
+2460.981 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1PvZbSmuLHNwwZnKh4AwBcbZWVlKG5sIT)
+2461.302 (8) Googledrive chunked upload: 1.3 % uploaded (1048576)
+2461.456 (8) Googledrive chunked upload: 2.6 % uploaded (2097152)
+2461.620 (8) Googledrive chunked upload: 3.9 % uploaded (3145728)
+2461.780 (8) Googledrive chunked upload: 5.2 % uploaded (4194304)
+2461.928 (8) Googledrive chunked upload: 6.5 % uploaded (5242880)
+2462.075 (8) Googledrive chunked upload: 7.8 % uploaded (6291456)
+2462.234 (8) Googledrive chunked upload: 9.1 % uploaded (7340032)
+2462.397 (8) Googledrive chunked upload: 10.4 % uploaded (8388608)
+2462.550 (8) Googledrive chunked upload: 11.7 % uploaded (9437184)
+2462.736 (8) Googledrive chunked upload: 13 % uploaded (10485760)
+2462.895 (8) Googledrive chunked upload: 14.3 % uploaded (11534336)
+2463.058 (8) Googledrive chunked upload: 15.6 % uploaded (12582912)
+2463.224 (8) Googledrive chunked upload: 16.9 % uploaded (13631488)
+2463.763 (8) Googledrive chunked upload: 18.2 % uploaded (14680064)
+2464.705 (8) Googledrive chunked upload: 19.5 % uploaded (15728640)
+2465.995 (8) Googledrive chunked upload: 20.7 % uploaded (16777216)
+2466.951 (8) Googledrive chunked upload: 22 % uploaded (17825792)
+2467.957 (8) Googledrive chunked upload: 23.3 % uploaded (18874368)
+2468.948 (8) Googledrive chunked upload: 24.6 % uploaded (19922944)
+2469.968 (8) Googledrive chunked upload: 25.9 % uploaded (20971520)
+2470.964 (8) Googledrive chunked upload: 27.2 % uploaded (22020096)
+2471.981 (8) Googledrive chunked upload: 28.5 % uploaded (23068672)
+2472.966 (8) Googledrive chunked upload: 29.8 % uploaded (24117248)
+2473.966 (8) Googledrive chunked upload: 31.1 % uploaded (25165824)
+2474.959 (8) Googledrive chunked upload: 32.4 % uploaded (26214400)
+2475.973 (8) Googledrive chunked upload: 33.7 % uploaded (27262976)
+2477.000 (8) Googledrive chunked upload: 35 % uploaded (28311552)
+2477.977 (8) Googledrive chunked upload: 36.3 % uploaded (29360128)
+2478.978 (8) Googledrive chunked upload: 37.6 % uploaded (30408704)
+2479.970 (8) Googledrive chunked upload: 38.9 % uploaded (31457280)
+2480.989 (8) Googledrive chunked upload: 40.2 % uploaded (32505856)
+2481.557 (8) Googledrive chunked upload: 41.5 % uploaded (33554432)
+2481.710 (8) Googledrive chunked upload: 42.8 % uploaded (34603008)
+2481.868 (8) Googledrive chunked upload: 44.1 % uploaded (35651584)
+2482.037 (8) Googledrive chunked upload: 45.4 % uploaded (36700160)
+2482.195 (8) Googledrive chunked upload: 46.7 % uploaded (37748736)
+2482.382 (8) Googledrive chunked upload: 48 % uploaded (38797312)
+2482.542 (8) Googledrive chunked upload: 49.3 % uploaded (39845888)
+2482.700 (8) Googledrive chunked upload: 50.6 % uploaded (40894464)
+2482.847 (8) Googledrive chunked upload: 51.9 % uploaded (41943040)
+2483.366 (8) Googledrive chunked upload: 53.2 % uploaded (42991616)
+2484.367 (8) Googledrive chunked upload: 54.5 % uploaded (44040192)
+2485.376 (8) Googledrive chunked upload: 55.8 % uploaded (45088768)
+2486.384 (8) Googledrive chunked upload: 57.1 % uploaded (46137344)
+2487.381 (8) Googledrive chunked upload: 58.4 % uploaded (47185920)
+2488.372 (8) Googledrive chunked upload: 59.7 % uploaded (48234496)
+2489.378 (8) Googledrive chunked upload: 61 % uploaded (49283072)
+2490.387 (8) Googledrive chunked upload: 62.2 % uploaded (50331648)
+2491.410 (8) Googledrive chunked upload: 63.5 % uploaded (51380224)
+2492.396 (8) Googledrive chunked upload: 64.8 % uploaded (52428800)
+2493.372 (8) Googledrive chunked upload: 66.1 % uploaded (53477376)
+2494.379 (8) Googledrive chunked upload: 67.4 % uploaded (54525952)
+2495.497 (8) Googledrive chunked upload: 68.7 % uploaded (55574528)
+2496.489 (8) Googledrive chunked upload: 70 % uploaded (56623104)
+2497.525 (8) Googledrive chunked upload: 71.3 % uploaded (57671680)
+2498.500 (8) Googledrive chunked upload: 72.6 % uploaded (58720256)
+2499.493 (8) Googledrive chunked upload: 73.9 % uploaded (59768832)
+2500.269 (8) Googledrive chunked upload: 75.2 % uploaded (60817408)
+2500.461 (8) Googledrive chunked upload: 76.5 % uploaded (61865984)
+2500.668 (8) Googledrive chunked upload: 77.8 % uploaded (62914560)
+2500.849 (8) Googledrive chunked upload: 79.1 % uploaded (63963136)
+2501.039 (8) Googledrive chunked upload: 80.4 % uploaded (65011712)
+2501.278 (8) Googledrive chunked upload: 81.7 % uploaded (66060288)
+2501.468 (8) Googledrive chunked upload: 83 % uploaded (67108864)
+2501.688 (8) Googledrive chunked upload: 84.3 % uploaded (68157440)
+2501.877 (8) Googledrive chunked upload: 85.6 % uploaded (69206016)
+2502.079 (8) Googledrive chunked upload: 86.9 % uploaded (70254592)
+2502.282 (8) Googledrive chunked upload: 88.2 % uploaded (71303168)
+2502.459 (8) Googledrive chunked upload: 89.5 % uploaded (72351744)
+2502.687 (8) Googledrive chunked upload: 90.8 % uploaded (73400320)
+2502.914 (8) Googledrive chunked upload: 92.1 % uploaded (74448896)
+2503.130 (8) Googledrive chunked upload: 93.4 % uploaded (75497472)
+2503.404 (8) Googledrive chunked upload: 94.7 % uploaded (76546048)
+2503.634 (8) Googledrive chunked upload: 96 % uploaded (77594624)
+2503.897 (8) Googledrive chunked upload: 97.3 % uploaded (78643200)
+2504.123 (8) Googledrive chunked upload: 98.6 % uploaded (79691776)
+2504.347 (8) Googledrive chunked upload: 99.9 % uploaded (80740352)
+2504.953 (8) Googledrive chunked upload: 100 % uploaded (80740352)
+2504.957 (8) OK: Archive backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip uploaded to Google Drive in 43.97 seconds
+2504.959 (8) Recording as successfully uploaded: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip (1ffa3ad0d8a91a4b67c4ee0ecc40f8ca)
+2504.988 (8) Deleting local file: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-uploads2.zip: OK
+2505.157 (8) Google Drive quota usage: used=236.9 MB, total=30720 MB, available=30483.1 MB
+2505.159 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-others.zip: Attempting to upload to Google Drive (into folder id: 1PvZbSmuLHNwwZnKh4AwBcbZWVlKG5sIT)
+2505.891 (8) Googledrive chunked upload: 100 % uploaded
+2505.895 (8) OK: Archive backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-others.zip uploaded to Google Drive in 0.74 seconds
+2505.897 (8) Recording as successfully uploaded: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-others.zip (61027078a479de1fc0ddeb737a3b83be)
+2505.901 (8) Deleting local file: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-others.zip: OK
+2506.088 (8) Google Drive quota usage: used=236.9 MB, total=30720 MB, available=30483.1 MB
+2506.089 (8) backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db.gz: Attempting to upload to Google Drive (into folder id: 1PvZbSmuLHNwwZnKh4AwBcbZWVlKG5sIT)
+2506.774 (8) Googledrive chunked upload: 100 % uploaded
+2506.777 (8) OK: Archive backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db.gz uploaded to Google Drive in 0.69 seconds
+2506.779 (8) Recording as successfully uploaded: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db.gz (7cd391a67c183205c933a25b40cc2772)
+2506.783 (8) Deleting local file: backup_2018-02-12-0716_Orchidmate_Orchid_Supplies_3822995bc7ce-db.gz: OK
+2506.785 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2506.787 (8) Number of backup sets in history: 1; groups (db): 1
+2506.787 (8) Examining (for databases) backup set with group_id=0, nonce=3822995bc7ce, datestamp=1518419810 (Feb 12 2018 07:16:50)
+2506.788 (8) This backup set is the backup set just made, so will not be deleted.
+2506.788 (8) Number of backup sets in history: 1; groups (files): 1
+2506.789 (8) Examining (for files) backup set with nonce=3822995bc7ce, datestamp=1518419810 (Feb 12 2018 07:16:50)
+2506.789 (8) This backup set is the backup set just made, so will not be deleted.
+2506.790 (8) This backup set is the backup set just made, so will not be deleted.
+2506.790 (8) This backup set is the backup set just made, so will not be deleted.
+2506.790 (8) This backup set is the backup set just made, so will not be deleted.
+2506.790 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2506.791 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2506.793 (8) Resume backup (3822995bc7ce, 8): finish run
+2506.795 (8) There were no errors in the uploads, so the 'resume' event (9) is being unscheduled
+2506.798 (8) No email will/can be sent - the user has not configured an email address.
+2506.799 (8) The backup apparently succeeded and is now complete

@@ -1,0 +1,6 @@
+<wpml-config>
+  <admin-texts>   
+    <key name="plp_custom_success_msg"/>
+    <key name="plp_custom_err_msg"/>
+  </admin-texts>
+</wpml-config>

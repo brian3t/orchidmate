@@ -1,0 +1,162 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go here */
+	.orchidlastpara > div {
+		margin-top: 200px;
+	}
+}
+div#pm-main-desc {
+	background-image: url("/wp-content/uploads/2015/05/potmate_bg2.png");
+	background-size: 90%;
+	height: 350px;
+	background-position: 40% 30%;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+@media (max-width: 400px){
+	div#pm-main-desc{background: none;background-image: none;}
+}
+.center{
+	margin: 0 auto;
+	float: none;
+	text-align: center;
+}
+.center * {
+	margin: 0 auto;}
+.woo-sc-quote.left{width:70%}
+.required-product-addon.product-addon.product-addon-model, [id^='product-'] .product-addon-pmsize, body.single-product .quantity, button.single_add_to_cart_button.button.alt, #product-addons-total {
+	display: none;
+}
+body.single.single-product.postid-194 div.quantity, body.single.single-product.postid-194 button.single_add_to_cart_button.button{display: block}
+table tr th:first-child, table tr td:first-child {
+	padding-left: 8px;
+}
+table.easy-table th, table.easy-table td{
+	padding: 8px;}
+.twolines span{
+	display: inline-block;
+	width: 19%;
+}
+.outer {
+	display: table;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.middle {
+	display: table-cell;
+	/*vertical-align: middle;*/
+}
+
+.inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.img-70percent{max-width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;}
+.no-margin-right{  float: left;	width: 11%;}
+.text-center{text-align: center}
+section.entry p{  /* line-height: 200%; */  text-align: justify;}
+#header-wrapper{
+	width: 66%;
+	margin-right: 17%;
+	margin-left: 17%;
+	float: left;
+}
+#main-nav > li.menu-item{
+	text-align: center;
+	width: 16%;
+}
+span.prod_price {
+    color: #6CAAD6;
+}
+span.dashicons{
+    vertical-align: middle;
+}
+button.pick_delivery {
+    margin-bottom: 8px;
+}
+.Zebra_DatePicker .dp_daypicker td{
+	color: rgb(106,168,254);
+}
+.Zebra_DatePicker .dp_daypicker td:hover{
+	color: #eee;
+}
+.Zebra_DatePicker .dp_daypicker td.dp_weekend_disabled, .Zebra_DatePicker .dp_daypicker td.dp_disabled{
+    color: #ccc;
+}
+div.Zebra_DatePicker > table.dp_daypicker td:last-child{
+	color: mediumpurple;
+}
+div.Zebra_DatePicker > table.dp_daypicker td:last-child.dp_weekend_disabled{
+	color: #ccc;
+}
+#deli_date_note{
+	margin-top: 5px;width: 226px; }
+span.left50 {
+	width: 50%;
+}
+span.left50 span{
+	color: #bbb;
+}
+.color-swatch{
+	top: 8px;
+	float: left;
+	position: relative;
+
+}
+div[id^="date_picker"]{
+	margin-bottom: 5px;
+}
+input.datepicker{
+	width: 94%;
+}
+body.postid-260 table.variations, body.postid-260 div.product-addon, body.postid-260 div.product_meta{
+	display: none;
+}
+body.postid-260 div.quantity{
+	display: none !important;
+}
+/*Enthusiast*/
+body.page-id-274 table.ProductListShortcode img{
+    float: left;
+    max-width: 110px;
+    width: inherit;
+}
+/* end enth */
+body.single-product span.posted_in {display: none}
+body.page-id-274 td.image{width: 18%;}
+body.page-id-274 td.content{width: 70%;vertical-align: top;}
+body.page-id-274 tr{border-bottom: 1px solid #ccc;}
+body.page-id-274 img{    margin-top: 4px;}
+body.page-id-274 .quantity.buttons_added{display: none; margin: 0px 30px;}
+body.page-id-274 td.content div.content{padding-top: 15px}
+body.page-id-274 .title {margin-bottom: 10px;}
+body.page-id-274 .sold{margin-left: 30px; color:red}
+body.page-id-274 .price {color:rgb(147,183,117);vertical-align: middle;}
+body.page-id-274 input[type="submit"] {display:none}
+body.page-id-274 input.enthusiast.checkout-button{margin: 0px 30px;font-size:small}
+#product-11 div.images{display:none;}
